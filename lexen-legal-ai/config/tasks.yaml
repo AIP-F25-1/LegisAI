@@ -1,0 +1,51 @@
+research_task:
+  description: >
+    Conduct comprehensive legal research on the query: {query}. 
+    Focus on identifying:
+    1. Core legal principles and requirements
+    2. Key obligations and responsibilities  
+    3. Specific compliance requirements
+    4. Legal definitions and terminology
+    5. Recent interpretations or guidance
+
+    Provide detailed research findings with proper structure and citations where relevant.
+  expected_output: >
+    A comprehensive legal research document with structured findings covering all key 
+    aspects of the query, including relevant legal principles, requirements, and 
+    important details for further analysis.
+
+analysis_task:
+  description: >
+    Analyze the legal research findings for: {query}. 
+    Provide detailed legal interpretation focusing on:
+    1. Legal obligations and requirements analysis
+    2. Practical implications of the legal requirements
+    3. Compliance considerations and challenges
+    4. Key legal risks and considerations
+    5. Relationship between different legal requirements
+
+    Build upon the research findings to provide comprehensive legal analysis.
+  expected_output: >
+    A detailed legal analysis document that interprets the research findings, 
+    explains legal obligations, identifies compliance requirements, and provides 
+    insights into practical implementation considerations.
+
+summary_task:
+  description: >
+    Create a comprehensive summary and recommendations based on the legal research 
+    and analysis for: {query}.
+
+    Your summary should include:
+    1. Executive summary of key findings
+    2. Clear listing of privacy requirements and obligations
+    3. Practical implementation recommendations
+    4. Best practices for compliance
+    5. Key takeaways and action items
+
+    Present the information in a clear, actionable format suitable for legal and 
+    compliance professionals.
+  expected_output: >
+    A professional legal summary document with clear privacy requirements, 
+    practical recommendations, and actionable guidance for compliance with 
+    the legal requirements identified in the research and analysis.
+  output_file: output/legal_summary.md

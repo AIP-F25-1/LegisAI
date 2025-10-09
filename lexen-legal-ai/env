@@ -1,0 +1,11 @@
+# Ollama Configuration
+CREWAI_MODEL_PROVIDER=ollama
+CREWAI_MODEL=llama3
+LITELLM_PROVIDER=ollama
+LITELLM_MODEL=ollama/llama3
+LITELLM_API_BASE=http://localhost:11434
+OPENAI_API_BASE=http://localhost:11434/v1
+OPENAI_API_KEY=ollama-local
+
+# Optional: For web search capabilities (if needed)
+# SERPER_API_KEY=your_serper_api_key_here
