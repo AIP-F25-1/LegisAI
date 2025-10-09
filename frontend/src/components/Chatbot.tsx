@@ -59,9 +59,9 @@ const Chatbot = ({ onBack }: ChatbotProps) => {
         "Legal requirements can vary by jurisdiction. Could you specify which state or country this pertains to?",
         "I can help clarify that legal concept. Let me break it down into simpler terms...",
       ];
-      
+
       const randomResponse = responses[Math.floor(Math.random() * responses.length)];
-      
+
       const botMessage: Message = {
         id: (Date.now() + 1).toString(),
         text: randomResponse,
@@ -127,11 +127,10 @@ const Chatbot = ({ onBack }: ChatbotProps) => {
                         )}
                       </div>
                       <div
-                        className={`p-3 rounded-lg ${
-                          message.isUser
+                        className={`p-3 rounded-lg ${message.isUser
                             ? 'bg-primary text-primary-foreground'
                             : 'bg-secondary text-secondary-foreground'
-                        }`}
+                          }`}
                       >
                         <p className="text-sm leading-relaxed">{message.text}</p>
                         <span className={`text-xs mt-1 block opacity-70`}>
@@ -141,7 +140,7 @@ const Chatbot = ({ onBack }: ChatbotProps) => {
                     </div>
                   </div>
                 ))}
-                
+
                 {isTyping && (
                   <div className="flex justify-start">
                     <div className="flex items-start space-x-2">
