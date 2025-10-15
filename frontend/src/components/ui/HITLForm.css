@@ -1,0 +1,27 @@
+.chat-container {
+  width: 400px;
+  margin: auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.chat-window {
+  height: 400px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+.user {
+  text-align: right;
+  margin: 5px;
+}
+
+.ai {
+  text-align: left;
+  margin: 5px;
+}
+
+.ai button {
+  display: block;
+  margin-top: 5px;
+}
