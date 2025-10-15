@@ -1,26 +1,58 @@
-from src.pipelines.review_clause import run_cross_consistency
+"""
+Explainability & Self-Consistency Runner
+Simulated multi-agent orchestration using dummy agents.
+"""
 
+import sys
+import os
+import random
+
+# ✅ Ensure Python can find dummy_agents inside this folder
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
+from dummy_agents import precedent_agent, compliance_agent, drafting_agent
+
+# ---------- CONSISTENCY LOGIC ----------
+def majority_vote(outputs):
+    """Return CONSISTENT if most outputs are similar."""
+    normalized = [o.lower() for o in outputs]
+    common = max(set(normalized), key=normalized.count)
+    agreement_ratio = normalized.count(common) / len(outputs)
+    return "CONSISTENT" if agreement_ratio >= 0.6 else "INCONSISTENT"
+
+def aggregate_confidence(outputs):
+    """Generate fake confidence between 0.5 and 1.0."""
+    return round(random.uniform(0.5, 1.0), 2)
+
+# ---------- MAIN ORCHESTRATOR ----------
+def run_cross_consistency(clause: str):
+    """Simulates multi-agent reasoning using dummy agents."""
+    agents = [precedent_agent(), compliance_agent(), drafting_agent()]
+
+    outputs = []
+    for agent in agents:
+        result = agent.run(clause)
+        outputs.append(result)
+
+    label = majority_vote(outputs)
+    confidence = aggregate_confidence(outputs)
+
+    return {
+        "clause": clause,
+        "outputs": outputs,
+        "consistency_label": label,
+        "confidence": confidence
+    }
+
+# ---------- CLI ENTRY ----------
 if __name__ == "__main__":
-    clause = (
-        "The employee shall not compete with the employer in any capacity "
-        "for two (2) years after termination within North America."
-    )
-
-    print("\n=== CROSS-CONSISTENCY SUMMARY ===\n")
+    clause = input("Enter a contract clause to analyze:\n> ")
     result = run_cross_consistency(clause)
 
-    print("Clause:", result["clause"])
-    cc = result["cross_consistency"]
-    print(f"\nWinner Verdict: {cc['winner_verdict']} | Consistency: {cc['consistency']} | Avg Confidence: {cc['confidence_avg']}")
-    print("Vote Counts:", cc["vote_counts"])
-
-    print("\n--- Per-Agent Outputs (JSON) ---")
-    for i, pa in enumerate(result["per_agent"], 1):
-        print(f"\nAgent {i} ({pa.get('verdict','N/A')}):", pa)
-
-    print("\n--- Citations ---")
-    if not result["citations"]:
-        print("No citations found.")
-    else:
-        for c in result["citations"]:
-            print(f"- {c.get('title')} [{c.get('jurisdiction')}] -> {c.get('url')}")
+    print("\n===== Cross-Consistency Results =====")
+    print(f"Clause: {result['clause']}")
+    print(f"Consistency Label: {result['consistency_label']}")
+    print(f"Confidence: {result['confidence']}")
+    print("\nAgent Outputs:")
+    for i, out in enumerate(result["outputs"], 1):
+        print(f"\nAgent {i}: {out}")

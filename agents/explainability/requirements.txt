@@ -1,7 +1,2 @@
-python-dotenv==1.0.1
 crewai==0.51.1
-openai==1.60.2
-tiktoken==0.7.0
-pydantic==2.9.2
-rapidfuzz==3.9.7
-streamlit==1.50.0
+openai>=1.13.3
