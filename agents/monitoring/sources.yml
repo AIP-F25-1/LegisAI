@@ -1,0 +1,7 @@
+sources:
+  - name: EU GDPR Portal
+    url: https://gdpr-info.eu/
+    selector: body
+  - name: US Department of Labor Wage and Hour Division
+    url: https://www.dol.gov/agencies/whd
+    selector: body

@@ -1,0 +1,3 @@
+from fastapi import APIRouter
+
+router = APIRouter(prefix="/api/stream", tags=["stream"])

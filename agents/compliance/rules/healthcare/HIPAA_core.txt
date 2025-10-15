@@ -1,0 +1,1 @@
+Covered entities must protect PHI confidentiality and limit disclosures to the minimum necessary under HIPAA Privacy Rule.
