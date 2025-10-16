@@ -1,6 +1,13 @@
-class risk_agent:
-    def __init__(self):
-        self.name = "Risk Agent"
+from agents.explainability.utils.dummy_llm import DummyLLM
 
-    def run(self, clause: str):
-        return f"{self.name}: assessed risk for '{clause}' — low risk identified."
+
+from crewai import Agent
+
+def risk_agent():
+    return Agent(
+        role="Risk Agent",
+        goal="Identify possible risks or ambiguous terms in the clause.",
+        backstory="Offline rule-based risk evaluator.",
+        llm=None,
+        verbose=False
+    )

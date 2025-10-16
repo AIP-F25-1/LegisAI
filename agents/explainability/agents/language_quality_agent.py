@@ -1,6 +1,10 @@
-class language_quality_agent:
-    def __init__(self):
-        self.name = "Language Quality Agent"
+from crewai import Agent
 
-    def run(self, clause: str):
-        return f"{self.name}: confirmed grammar and clarity for '{clause}'."
+def language_quality_agent():
+    return Agent(
+        role="Language Quality Agent",
+        goal="Check readability, tone, and clarity of the clause.",
+        backstory="Offline grammar and readability checker.",
+        llm=None,
+        verbose=False
+    )

@@ -1,10 +1,11 @@
-# precedent_agent.py
-class precedent_agent:
-    def __init__(self):
-        self.name = "Precedent Agent"
+from crewai import Agent
+from agents.explainability.utils.dummy_llm import DummyLLM
 
-    def run(self, clause: str):
-        """
-        Simulate a precedent-based reasoning check for the clause.
-        """
-        return f"{self.name}: reviewed clause '{clause}' and found no precedent conflicts."
+def precedent_agent():
+    return Agent(
+        role="Precedent Agent",
+        goal="Analyze the clause for precedent and legal consistency",
+        backstory="A deterministic offline agent for precedent checking.",
+        llm=DummyLLM(),     # ✅ use fake LLM instead of None
+        verbose=False
+    )

@@ -1,11 +1,10 @@
-# compliance_agent.py
+from crewai import Agent
 
-class compliance_agent:
-    def __init__(self):
-        self.name = "Compliance Agent"
-
-    def run(self, clause: str):
-        """
-        Simulate a compliance review for a given clause.
-        """
-        return f"{self.name}: verified that '{clause}' aligns with legal and regulatory standards."
+def compliance_agent():
+    return Agent(
+        role="Compliance Agent",
+        goal="Ensure the clause aligns with legal compliance standards.",
+        backstory="A simple offline compliance analyzer.",
+        llm=None,
+        verbose=False
+    )
