@@ -5,6 +5,7 @@ import { Input } from "@/components/ui/input";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import logo from "@/assets/logo.png";
+import { apiChat } from "@/lib/api";
 
 interface Message {
   id: string;
@@ -50,29 +51,28 @@ const Chatbot = ({ onBack }: ChatbotProps) => {
     setInputMessage("");
     setIsTyping(true);
 
-    // Simulate AI response
-    setTimeout(() => {
-      const responses = [
-        "I understand you're asking about contract terms. Could you provide more specific details about the clause you're concerned with?",
-        "That's a great legal question. Based on general contract law principles, here's what I can tell you...",
-        "For document analysis, I'd recommend uploading the contract using our Contract Processing feature for detailed analysis.",
-        "Legal requirements can vary by jurisdiction. Could you specify which state or country this pertains to?",
-        "I can help clarify that legal concept. Let me break it down into simpler terms...",
-      ];
-
-      const randomResponse = responses[Math.floor(Math.random() * responses.length)];
-
+    try {
+      const res = await apiChat(userMessage.text);
       const botMessage: Message = {
         id: (Date.now() + 1).toString(),
-        text: randomResponse,
+        text: res.answer, // <- from FastAPI /api/chat
         isUser: false,
         timestamp: new Date(),
       };
-
       setMessages(prev => [...prev, botMessage]);
+    } catch (err: unknown) {
+      const botMessage: Message = {
+        id: (Date.now() + 1).toString(),
+        text: `Sorry, I couldn't process that. ${err?.message ?? ""}`.trim(),
+        isUser: false,
+        timestamp: new Date(),
+      };
+      setMessages(prev => [...prev, botMessage]);
+    } finally {
       setIsTyping(false);
-    }, 1500);
+    }
   };
+
 
   const handleKeyPress = (e: React.KeyboardEvent) => {
     if (e.key === 'Enter' && !e.shiftKey) {
@@ -128,8 +128,8 @@ const Chatbot = ({ onBack }: ChatbotProps) => {
                       </div>
                       <div
                         className={`p-3 rounded-lg ${message.isUser
-                            ? 'bg-primary text-primary-foreground'
-                            : 'bg-secondary text-secondary-foreground'
+                          ? 'bg-primary text-primary-foreground'
+                          : 'bg-secondary text-secondary-foreground'
                           }`}
                       >
                         <p className="text-sm leading-relaxed">{message.text}</p>

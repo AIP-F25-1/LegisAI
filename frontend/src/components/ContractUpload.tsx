@@ -31,7 +31,7 @@ const ContractUpload = ({ onBack }: ContractUploadProps) => {
     },
     {
       value: "summarize" as OutputType,
-      title: "Contract Summary", 
+      title: "Contract Summary",
       description: "Create a concise summary of key terms and clauses"
     },
     {
@@ -90,7 +90,7 @@ const ContractUpload = ({ onBack }: ContractUploadProps) => {
         if (prev >= 90) {
           clearInterval(uploadInterval);
           setUploadStatus("processing");
-          
+
           // Simulate processing time
           setTimeout(() => {
             setUploadStatus("completed");
@@ -100,7 +100,7 @@ const ContractUpload = ({ onBack }: ContractUploadProps) => {
               description: `Your ${outputOptions.find(opt => opt.value === outputType)?.title.toLowerCase()} is ready for download.`,
             });
           }, 3000);
-          
+
           return 90;
         }
         return prev + Math.random() * 15;
@@ -185,13 +185,12 @@ const ContractUpload = ({ onBack }: ContractUploadProps) => {
                 onDragLeave={handleDrag}
                 onDragOver={handleDrag}
                 onDrop={handleDrop}
-                className={`border-2 border-dashed rounded-lg p-8 text-center transition-all duration-300 ${
-                  dragActive
+                className={`border-2 border-dashed rounded-lg p-8 text-center transition-all duration-300 ${dragActive
                     ? "border-primary bg-primary/5"
                     : selectedFile
-                    ? "border-success bg-success/5"
-                    : "border-border hover:border-primary/50"
-                }`}
+                      ? "border-success bg-success/5"
+                      : "border-border hover:border-primary/50"
+                  }`}
               >
                 <div className="flex flex-col items-center space-y-4">
                   {getStatusIcon()}
@@ -273,11 +272,10 @@ const ContractUpload = ({ onBack }: ContractUploadProps) => {
                 {outputOptions.map((option) => (
                   <div
                     key={option.value}
-                    className={`flex items-start space-x-3 p-4 rounded-lg border transition-all duration-200 ${
-                      outputType === option.value
+                    className={`flex items-start space-x-3 p-4 rounded-lg border transition-all duration-200 ${outputType === option.value
                         ? "border-primary bg-primary/5"
                         : "border-border hover:border-primary/30"
-                    }`}
+                      }`}
                   >
                     <RadioGroupItem
                       value={option.value}
