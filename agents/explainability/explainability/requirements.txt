@@ -1,3 +1,4 @@
 flask
 flask-cors
-crewai>=0.51.1
+crewai
+pydantic>=2.0
