@@ -61,9 +61,11 @@ const Chatbot = ({ onBack }: ChatbotProps) => {
       };
       setMessages(prev => [...prev, botMessage]);
     } catch (err: unknown) {
+      const errorMessage =
+        err instanceof Error ? err.message : typeof err === "string" ? err : JSON.stringify(err);
       const botMessage: Message = {
         id: (Date.now() + 1).toString(),
-        text: `Sorry, I couldn't process that. ${err?.message ?? ""}`.trim(),
+        text: `Sorry, I couldn't process that. ${errorMessage ?? ""}`.trim(),
         isUser: false,
         timestamp: new Date(),
       };
