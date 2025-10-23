@@ -1,13 +1,4 @@
-# agents/explainability/agents/language_quality_agent.py
+from agents.explainability.dummy_llm import fake_llm_response
 
-from crewai import Agent
-from agents.explainability.utils.dummy_llm import DummyLLM
-
-def language_quality_agent():
-    return Agent(
-        role="Language Quality Agent",
-        goal="Assess the linguistic and readability quality of the clause.",
-        backstory="Reviews tone, fluency, and clarity.",
-        llm=DummyLLM(),
-        verbose=False
-    )
+def run_language_quality_agent(clause):
+    return f"Language Quality Agent → {fake_llm_response(clause)}"

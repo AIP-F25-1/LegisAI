@@ -1,11 +1,4 @@
-from crewai import Agent
-from agents.explainability.utils.dummy_llm import DummyLLM
+from agents.explainability.dummy_llm import fake_llm_response
 
-def precedent_agent():
-    return Agent(
-        role="Precedent Agent",
-        goal="Analyze the clause for precedent and legal consistency.",
-        backstory="A deterministic offline agent for precedent checking.",
-        llm=DummyLLM(),
-        verbose=False
-    )
+def run_precedent_agent(clause):
+    return f"Precedent Agent → {fake_llm_response(clause)}"
