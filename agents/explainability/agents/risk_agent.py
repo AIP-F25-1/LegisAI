@@ -1,13 +1,4 @@
-# agents/explainability/agents/risk_agent.py
+from agents.explainability.dummy_llm import fake_llm_response
 
-from crewai import Agent
-from agents.explainability.utils.dummy_llm import DummyLLM
-
-def risk_agent():
-    return Agent(
-        role="Risk Agent",
-        goal="Identify potential legal or operational risks in the clause.",
-        backstory="Focuses on ambiguity, liability, and risk factors.",
-        llm=DummyLLM(),
-        verbose=False
-    )
+def run_risk_agent(clause):
+    return f"Risk Agent → {fake_llm_response(clause)}"
