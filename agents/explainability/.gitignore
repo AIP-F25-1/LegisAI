@@ -1,0 +1,30 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info
+.eggs/
+dist/
+build/
+*.log
+
+# ---- Environments ----
+venv/
+.env/
+.env
+
+# ---- IDE / OS ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ---- Misc ----
+*.zip
+*.tar
+*.gz
+*.sqlite3
+*.db

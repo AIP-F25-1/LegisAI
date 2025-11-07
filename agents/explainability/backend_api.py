@@ -1,26 +1,16 @@
 from fastapi import FastAPI
-from pydantic import BaseModel
-from fastapi.middleware.cors import CORSMiddleware
-from .cross_consistency import cross_consistency_check
+from agents.explainability.cross_consistency import run_cross_consistency
 
-app = FastAPI(title="LegisAI Backend", version="1.0")
+app = FastAPI(title="LegisAI Backend API")
 
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"], allow_credentials=True,
-    allow_methods=["*"], allow_headers=["*"],
-)
+@app.get("/")
+def root():
+    return {"message": "LegisAI Backend Running"}
 
-class CheckReq(BaseModel):
-    clause: str
-
-@app.post("/api/check-consistency")
-def check(req: CheckReq):
-    """Run all 5 dummy agents + consistency auditor."""
-    return cross_consistency_check(req.clause)
-
-@app.get("/health")
-def health():
-    return {"ok": True}
-
-# Run:  uvicorn agents.backend_api:app --reload
+@app.post("/cross_consistency")
+def check_clause(data: dict):
+    clause = data.get("clause", "")
+    if not clause:
+        return {"error": "No clause provided"}
+    result = run_cross_consistency(clause)
+    return result

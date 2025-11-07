@@ -1,0 +1,29 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ---- Virtual Envs ----
+venv/
+.env/
+.env
+
+# ---- Build / Dist ----
+build/
+dist/
+*.egg-info/
+*.egg/
+
+# ---- IDE / OS ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ---- Misc ----
+*.zip
+*.tar
+*.gz
+*.sqlite3
+*.db
