@@ -1,12 +1,7 @@
-from typing import Any, Dict, List
+import json
+from pathlib import Path
 
-def make_response(clause: str, agent_outputs: Dict[str, str], conflicts: List[str], harmonized: str) -> Dict[str, Any]:
-    """Return a consistent JSON payload for the API."""
-    return {
-        "clause": clause,
-        "agents": agent_outputs,
-        "consistency": {
-            "conflicts": conflicts,
-            "harmonized_conclusion": harmonized
-        }
-    }
+def save_json(data, path):
+    Path(path).parent.mkdir(parents=True, exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=4)
