@@ -1,4 +1,4 @@
-import { useState, useCallback } from "react";
+import { useState, useCallback, useRef } from "react";
 import { ArrowLeft, Upload, FileText, Check, AlertCircle, Download } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -13,7 +13,8 @@ interface ContractUploadProps {
 }
 
 type OutputType = "draft" | "summarize" | "regularize";
-type UploadStatus = "idle" | "uploading" | "processing" | "completed" | "error";
+type UploadStatus = "idle" | "uploading" | "processing" | "completed" | "error" | "needs_review";
+type ReviewAction = "approve" | "reject" | "request_human";
 
 const ContractUpload = ({ onBack }: ContractUploadProps) => {
   const [selectedFile, setSelectedFile] = useState<File | null>(null);
@@ -21,7 +22,9 @@ const ContractUpload = ({ onBack }: ContractUploadProps) => {
   const [uploadStatus, setUploadStatus] = useState<UploadStatus>("idle");
   const [progress, setProgress] = useState(0);
   const [dragActive, setDragActive] = useState(false);
+  const [confidenceScore, setConfidenceScore] = useState<number>(0);
   const { toast } = useToast();
+  const fileInputRef = useRef<HTMLInputElement>(null);
 
   const outputOptions = [
     {
@@ -83,6 +86,7 @@ const ContractUpload = ({ onBack }: ContractUploadProps) => {
 
     setUploadStatus("uploading");
     setProgress(0);
+    setConfidenceScore(0);
 
     // Simulate upload progress
     const uploadInterval = setInterval(() => {
@@ -91,14 +95,27 @@ const ContractUpload = ({ onBack }: ContractUploadProps) => {
           clearInterval(uploadInterval);
           setUploadStatus("processing");
 
-          // Simulate processing time
+          // Simulate processing time and confidence calculation
           setTimeout(() => {
-            setUploadStatus("completed");
+            // Simulate confidence score (random between 40-95%)
+            const simulatedConfidence = Math.floor(Math.random() * 55 + 40);
+            setConfidenceScore(simulatedConfidence);
+
+            if (simulatedConfidence < 60) {
+              setUploadStatus("needs_review");
+              toast({
+                title: "Human review required",
+                description: `Confidence score: ${simulatedConfidence}%. Please review or request human agent assistance.`,
+                variant: "destructive",
+              });
+            } else {
+              setUploadStatus("completed");
+              toast({
+                title: "Contract processing completed!",
+                description: `Confidence: ${simulatedConfidence}%. Your ${outputOptions.find(opt => opt.value === outputType)?.title.toLowerCase()} is ready.`,
+              });
+            }
             setProgress(100);
-            toast({
-              title: "Contract processing completed!",
-              description: `Your ${outputOptions.find(opt => opt.value === outputType)?.title.toLowerCase()} is ready for download.`,
-            });
           }, 3000);
 
           return 90;
@@ -106,6 +123,36 @@ const ContractUpload = ({ onBack }: ContractUploadProps) => {
         return prev + Math.random() * 15;
       });
     }, 200);
+  };
+
+  const handleReviewAction = (action: ReviewAction) => {
+    switch (action) {
+      case "approve":
+        setUploadStatus("completed");
+        toast({
+          title: "Result approved",
+          description: "Processing result has been approved and is ready for download.",
+        });
+        break;
+      case "reject":
+        setUploadStatus("idle");
+        setSelectedFile(null);
+        setConfidenceScore(0);
+        toast({
+          title: "Result rejected",
+          description: "Please upload a new document to try again.",
+        });
+        break;
+      case "request_human":
+        toast({
+          title: "Redirecting to human agent",
+          description: "Your request has been forwarded to a human agent for review.",
+        });
+        setTimeout(() => {
+          setUploadStatus("completed");
+        }, 2000);
+        break;
+    }
   };
 
   const handleDownload = () => {
@@ -121,6 +168,8 @@ const ContractUpload = ({ onBack }: ContractUploadProps) => {
     switch (uploadStatus) {
       case "completed":
         return <Check className="h-5 w-5 text-success" />;
+      case "needs_review":
+        return <AlertCircle className="h-5 w-5 text-warning" />;
       case "error":
         return <AlertCircle className="h-5 w-5 text-destructive" />;
       default:
@@ -136,6 +185,8 @@ const ContractUpload = ({ onBack }: ContractUploadProps) => {
         return `Processing contract for ${outputOptions.find(opt => opt.value === outputType)?.title.toLowerCase()}...`;
       case "completed":
         return "Contract processing completed successfully!";
+      case "needs_review":
+        return "Low confidence detected - Human review recommended";
       case "error":
         return "Error processing contract. Please try again.";
       default:
@@ -185,7 +236,8 @@ const ContractUpload = ({ onBack }: ContractUploadProps) => {
                 onDragLeave={handleDrag}
                 onDragOver={handleDrag}
                 onDrop={handleDrop}
-                className={`border-2 border-dashed rounded-lg p-8 text-center transition-all duration-300 ${dragActive
+                onClick={() => fileInputRef.current?.click()}
+                className={`border-2 border-dashed rounded-lg p-8 text-center transition-all duration-300 cursor-pointer ${dragActive
                     ? "border-primary bg-primary/5"
                     : selectedFile
                       ? "border-success bg-success/5"
@@ -208,17 +260,23 @@ const ContractUpload = ({ onBack }: ContractUploadProps) => {
                     </div>
                   )}
                   <input
+                    ref={fileInputRef}
                     type="file"
                     accept=".pdf"
                     onChange={(e) => handleFileSelect(e.target.files)}
                     className="hidden"
                     id="file-upload"
                   />
-                  <Label htmlFor="file-upload" className="cursor-pointer">
-                    <Button variant="outline" className="mt-2">
-                      {selectedFile ? "Change File" : "Select File"}
-                    </Button>
-                  </Label>
+                  <Button
+                    variant="outline"
+                    className="mt-2"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      fileInputRef.current?.click();
+                    }}
+                  >
+                    {selectedFile ? "Change File" : "Select File"}
+                  </Button>
                   <p className="text-xs text-muted-foreground">PDF files only • Max 20MB</p>
                 </div>
               </div>
@@ -242,12 +300,52 @@ const ContractUpload = ({ onBack }: ContractUploadProps) => {
                       <Check className="h-5 w-5 text-success mr-2" />
                       <div>
                         <p className="font-medium text-success">Processing Complete!</p>
-                        <p className="text-sm text-success/80">{getStatusText()}</p>
+                        <p className="text-sm text-success/80">
+                          Confidence Score: {confidenceScore}%
+                        </p>
                       </div>
                     </div>
                     <Button onClick={handleDownload} className="bg-success hover:bg-success/90">
                       <Download className="h-4 w-4 mr-2" />
                       Download
+                    </Button>
+                  </div>
+                </div>
+              )}
+
+              {/* Review Required Message */}
+              {uploadStatus === "needs_review" && (
+                <div className="bg-warning/10 border border-warning/20 rounded-lg p-4 space-y-4">
+                  <div className="flex items-start">
+                    <AlertCircle className="h-5 w-5 text-warning mr-2 mt-0.5" />
+                    <div className="flex-1">
+                      <p className="font-medium text-warning">Low Confidence Score: {confidenceScore}%</p>
+                      <p className="text-sm text-muted-foreground mt-1">
+                        The accuracy is below the 60% threshold. Please review the results or request human agent assistance.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex flex-wrap gap-2">
+                    <Button
+                      onClick={() => handleReviewAction("approve")}
+                      variant="outline"
+                      className="flex-1"
+                    >
+                      <Check className="h-4 w-4 mr-2" />
+                      Approve Result
+                    </Button>
+                    <Button
+                      onClick={() => handleReviewAction("request_human")}
+                      className="flex-1 bg-primary"
+                    >
+                      Request Human Agent
+                    </Button>
+                    <Button
+                      onClick={() => handleReviewAction("reject")}
+                      variant="destructive"
+                      className="flex-1"
+                    >
+                      Reject & Retry
                     </Button>
                   </div>
                 </div>
