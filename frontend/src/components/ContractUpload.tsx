@@ -7,12 +7,13 @@ import { Label } from "@/components/ui/label";
 import { Progress } from "@/components/ui/progress";
 import { useToast } from "@/hooks/use-toast";
 import logo from "@/assets/logo.png";
+import { apiProcess, OutputType } from "@/lib/api";
 
 interface ContractUploadProps {
   onBack: () => void;
 }
 
-type OutputType = "draft" | "summarize" | "regularize";
+// type OutputType = "draft" | "summarize" | "regularize";
 type UploadStatus = "idle" | "uploading" | "processing" | "completed" | "error" | "needs_review";
 type ReviewAction = "approve" | "reject" | "request_human";
 
@@ -88,42 +89,50 @@ const ContractUpload = ({ onBack }: ContractUploadProps) => {
     setProgress(0);
     setConfidenceScore(0);
 
-    // Simulate upload progress
-    const uploadInterval = setInterval(() => {
-      setProgress(prev => {
-        if (prev >= 90) {
-          clearInterval(uploadInterval);
-          setUploadStatus("processing");
+    try {
+      // front-end progress animation while backend works
+      setProgress(30);
 
-          // Simulate processing time and confidence calculation
-          setTimeout(() => {
-            // Simulate confidence score (random between 40-95%)
-            const simulatedConfidence = Math.floor(Math.random() * 55 + 40);
-            setConfidenceScore(simulatedConfidence);
+      const res = await apiProcess(selectedFile, outputType);
 
-            if (simulatedConfidence < 60) {
-              setUploadStatus("needs_review");
-              toast({
-                title: "Human review required",
-                description: `Confidence score: ${simulatedConfidence}%. Please review or request human agent assistance.`,
-                variant: "destructive",
-              });
-            } else {
-              setUploadStatus("completed");
-              toast({
-                title: "Contract processing completed!",
-                description: `Confidence: ${simulatedConfidence}%. Your ${outputOptions.find(opt => opt.value === outputType)?.title.toLowerCase()} is ready.`,
-              });
-            }
-            setProgress(100);
-          }, 3000);
+      setProgress(90);
 
-          return 90;
-        }
-        return prev + Math.random() * 15;
+      const confidencePct = Math.round(res.confidence * 100);
+      setConfidenceScore(confidencePct);
+
+      if (res.status === "needs_review" || confidencePct < 60) {
+        setUploadStatus("needs_review");
+        toast({
+          title: "Human review required",
+          description: `Confidence score: ${confidencePct}%. Backend flagged low confidence.`,
+          variant: "destructive",
+        });
+      } else {
+        setUploadStatus("completed");
+        toast({
+          title: "Contract processing completed!",
+          description: `Confidence: ${confidencePct}%. Your ${outputOptions.find(opt => opt.value === outputType)?.title.toLowerCase()
+            } is ready.`,
+        });
+      }
+
+      setProgress(100);
+      // If you want to display the detailed summary somewhere, you can store res.summary in state.
+    } catch (err: unknown) {
+      console.error(err);
+      setUploadStatus("error");
+
+      const msg =
+        err instanceof Error ? err.message : typeof err === "string" ? err : JSON.stringify(err);
+
+      toast({
+        title: "Error processing contract",
+        description: msg,
+        variant: "destructive",
       });
-    }, 200);
+    }
   };
+
 
   const handleReviewAction = (action: ReviewAction) => {
     switch (action) {
@@ -238,10 +247,10 @@ const ContractUpload = ({ onBack }: ContractUploadProps) => {
                 onDrop={handleDrop}
                 onClick={() => fileInputRef.current?.click()}
                 className={`border-2 border-dashed rounded-lg p-8 text-center transition-all duration-300 cursor-pointer ${dragActive
-                    ? "border-primary bg-primary/5"
-                    : selectedFile
-                      ? "border-success bg-success/5"
-                      : "border-border hover:border-primary/50"
+                  ? "border-primary bg-primary/5"
+                  : selectedFile
+                    ? "border-success bg-success/5"
+                    : "border-border hover:border-primary/50"
                   }`}
               >
                 <div className="flex flex-col items-center space-y-4">
@@ -371,8 +380,8 @@ const ContractUpload = ({ onBack }: ContractUploadProps) => {
                   <div
                     key={option.value}
                     className={`flex items-start space-x-3 p-4 rounded-lg border transition-all duration-200 ${outputType === option.value
-                        ? "border-primary bg-primary/5"
-                        : "border-border hover:border-primary/30"
+                      ? "border-primary bg-primary/5"
+                      : "border-border hover:border-primary/30"
                       }`}
                   >
                     <RadioGroupItem

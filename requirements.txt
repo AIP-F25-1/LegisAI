@@ -19,3 +19,10 @@ numpy
 pandas
 apscheduler
 python-dotenv
+PyPDF2
+python-multipart
+pyyaml
+docx2txt
+matplotlib
+langchain-openai
+faiss-cpu

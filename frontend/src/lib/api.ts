@@ -1,42 +1,67 @@
-// frontend/src/lib/api.ts
-type OutputKind = "summary" | "compliance" | "risk" | "draft" | "regularize";
-
-/** If you're using the combined backend notebook with /api/chat and /api/process, keep true. */
-const USE_GATEWAY = true;
+// Output options supported by the backend
+export type OutputType = "draft" | "summarize" | "regularize";
 
 const BASE = import.meta.env.VITE_API ?? "http://localhost:8000";
 
-// ---- Chatbot ----
-export async function apiChat(message: string) {
-  const fd = new FormData();
-  fd.append("message", message);
-  const res = await fetch(`${BASE}/api/chat`, { method: "POST", body: fd });
-  if (!res.ok) throw new Error(await res.text());
-  return (await res.json()) as { answer: string };
+/* ========== CHATBOT API ========== */
+
+export interface ChatResponse {
+  answer: string;
+  confidence: number; // 0..1
+  routed_to_human: boolean; // true if backend thinks confidence < 0.6
 }
 
-// ---- Upload + radio ----
-export async function apiProcess(
-  file: File,
-  output: OutputKind,
-  p_default = 0.05,
-  lgd = 0.6
-) {
-  if (USE_GATEWAY) {
-    const fd = new FormData();
-    fd.append("file", file);
-    fd.append("output", output);
-    fd.append("p_default", String(p_default));
-    fd.append("lgd", String(lgd));
-    const res = await fetch(`${BASE}/api/process`, {
-      method: "POST",
-      body: fd,
-    });
-    if (!res.ok) throw new Error(await res.text());
-    return await res.json(); // { result: ... }
+export async function apiChat(message: string): Promise<ChatResponse> {
+  const res = await fetch(`${BASE}/api/chat`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({ message }),
+  });
+
+  if (!res.ok) {
+    const text = await res.text();
+    throw new Error(text || `HTTP ${res.status}`);
   }
 
-  // If you later run per-agent notebooks instead of the combined one,
-  // flip USE_GATEWAY=false and add the direct calls here.
-  throw new Error("Set USE_GATEWAY=true or add per-agent endpoints here.");
+  return (await res.json()) as ChatResponse;
+}
+
+/* ========== CONTRACT / UPLOAD API ========== */
+
+export interface ContractProcessResponse {
+  file_name: string;
+  output_type: string; // echo of the requested output_type
+  summary: string; // LLM summary / analysis
+  risk_score: number; // normalized risk 0..1
+  incident_rate: number; // Monte Carlo incident rate
+  confidence: number; // 0..1 (1 - incident_rate)
+  status: "completed" | "needs_review";
+}
+
+/**
+ * Call FastAPI /api/contracts/analyze
+ * - file: uploaded contract PDF/DOCX/TXT
+ * - outputType: "draft" | "summarize" | "regularize"
+ */
+export async function apiProcess(
+  file: File,
+  outputType: OutputType
+): Promise<ContractProcessResponse> {
+  const fd = new FormData();
+  fd.append("file", file);
+  fd.append("output_type", outputType);
+
+  const res = await fetch(`${BASE}/api/contracts/analyze`, {
+    method: "POST",
+    body: fd,
+  });
+
+  if (!res.ok) {
+    const text = await res.text();
+    throw new Error(text || `HTTP ${res.status}`);
+  }
+
+  return (await res.json()) as ContractProcessResponse;
 }

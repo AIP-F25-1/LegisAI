@@ -1,0 +1,35 @@
+# Task definitions for the crew
+
+compliance_task:
+  description: >
+    Perform clause-level compliance checks on contracts using domain-specific
+    corpora (finance, healthcare, labor, GDPR/CCPA). Identify clauses that
+    violate or omit key obligations. Cross-reference regulations.
+  expected_output: >
+    - Non-compliant clauses with references
+    - Recommended amendments
+    - Domainpack source references and confidence scores
+  output_file: output/compliance_report.md
+
+regulatory_task:
+  description: >
+    Monitor and analyze new and updated regulations (EU legislation, US Code,
+    OECD/WTO treaties). Flag new obligations and suggest clause updates.
+  expected_output: >
+    - Regulation name and jurisdiction
+    - Summary of new requirements
+    - Recommended clause updates
+    - Affected compliance areas
+  output_file: output/regulatory_updates.md
+
+risk_task:
+  description: >
+    Clause-level risk assessment using Monte Carlo simulations. Evaluate
+    probability of default, breach, or non-compliance under scenarios. Assign
+    risk scores and summarize vulnerabilities.
+  expected_output: >
+    - Clause-level risk scores (0–1)
+    - Simulation outcomes
+    - Mitigation recommendations
+    - Data for graph visualization
+  output_file: output/risk_assessment.md
