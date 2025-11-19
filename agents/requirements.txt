@@ -1,8 +1,0 @@
-crewai
-fastapi
-uvicorn
-streamlit
-langchain-openai
-langchain-community
-pydantic
-requests
