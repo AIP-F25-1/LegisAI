@@ -1,2 +1,5 @@
+from agents.explainability.dummy_llm import run_dummy_agent
+
 def call_llm(prompt: str) -> str:
-    return f"Bot response: {prompt}"
+    response = run_dummy_agent(prompt)
+    return response

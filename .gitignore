@@ -1,25 +1,34 @@
 # Python virtual environments
 venv/
-env/
 .venv/
+env/
 
 # Python cache
 __pycache__/
 *.pyc
 *.pyo
 
-# VS Code
+# Byte-compiled files
+*.pyd
+*.pdb
+
+# VS Code settings
 .vscode/
 
 # Jupyter cache
 .ipynb_checkpoints/
 
+# Build files
+build/
+dist/
+*.egg-info/
+
 # Logs
 *.log
 
-# OS files
+# OS-generated files
 .DS_Store
 Thumbs.db
 
-# Node modules
+# Node modules (if frontend uses JS)
 node_modules/
