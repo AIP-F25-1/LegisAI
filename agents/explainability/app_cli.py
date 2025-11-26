@@ -1,4 +1,4 @@
-from agents.explainability.cross_consistency import run_cross_consistency
+from cross_consistency import run_cross_consistency
 
 if __name__ == "__main__":
     clause = input("Enter a contract clause:\n> ")

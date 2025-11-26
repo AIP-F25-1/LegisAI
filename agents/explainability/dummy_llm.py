@@ -1,16 +1,20 @@
-import random
+def fake_llm_response(prompt: str) -> str:
+    """
+    Simple dummy LLM response generator.
+    This prevents crashes when agents call LLM.
+    """
 
-def fake_llm_response(prompt: str):
-    responses = [
-        "Clause aligns with precedent cases.",
-        "Clause complies with general policies.",
-        "Suggested rewrite improves clarity.",
-        "Potential risk identified under confidentiality terms.",
-        "Language appears consistent and legally valid.",
-        "No ethical conflict found in this clause.",
-        "Governance framework supports clause.",
-        "Liability terms are clearly defined.",
-        "Jurisdiction scope is appropriately stated.",
-        "Negotiation-friendly phrasing detected."
-    ]
-    return random.choice(responses)
+    if not prompt:
+        return "No input provided."
+
+    # A simple rule-based fake LLM
+    if "risk" in prompt.lower():
+        return "Potential risk identified based on the contract clause."
+    if "precedent" in prompt.lower():
+        return "Relevant legal precedent may apply to similar clauses."
+    if "quality" in prompt.lower():
+        return "Clause quality appears acceptable with minor improvements."
+    if "liability" in prompt.lower():
+        return "Liability implications need clarification."
+
+    return f"Processed: {prompt[:60]}..."
