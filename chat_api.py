@@ -1,11 +1,11 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
-from chatbot.router import process_user_message
 from fastapi.middleware.cors import CORSMiddleware
+from chatbot.router import process_user_message
 
 app = FastAPI()
 
-# Allow frontend to connect
+# Allow frontend to communicate with backend
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
