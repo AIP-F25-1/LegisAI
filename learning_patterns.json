@@ -1,0 +1,23 @@
+[
+  {
+    "pattern_type": "edit_pattern",
+    "feature_type": "research",
+    "pattern": "edit_research",
+    "frequency": 2,
+    "last_updated": "2025-12-02T15:06:18.327767"
+  },
+  {
+    "pattern_type": "rejection_reason",
+    "feature_type": "research",
+    "pattern": "rejection_research",
+    "frequency": 1,
+    "last_updated": "2025-12-02T15:06:08.622531"
+  },
+  {
+    "pattern_type": "edit_pattern",
+    "feature_type": "compliance",
+    "pattern": "edit_compliance",
+    "frequency": 1,
+    "last_updated": "2025-12-02T19:29:04.857623"
+  }
+]

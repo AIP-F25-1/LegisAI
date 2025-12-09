@@ -1,0 +1,48 @@
+# FastAPI and Server
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# File Handling
+aiofiles==23.2.1
+PyPDF2==3.0.1
+python-docx==1.1.0
+
+# AI and ML
+ollama==0.1.7
+sentence-transformers==2.2.2
+huggingface-hub>=0.16.0,<0.20.0
+faiss-cpu==1.7.4
+rank-bm25==0.2.2
+
+# HTTP and Networking
+httpx>=0.25.2,<0.26.0
+aiohttp==3.9.1
+requests==2.31.0
+
+# Data Processing
+pandas==2.1.4
+numpy==1.26.3
+pyyaml==6.0.1
+
+# Utilities
+python-dotenv==1.0.0
+python-dateutil==2.8.2
+
+# Development
+pytest==7.4.4
+black==24.1.1
+
+# Multi-Agent Orchestration
+langgraph>=0.2.0  # For graph-based agent orchestration
+langchain-core>=0.3.0  # Required by LangGraph
+
+# Multi-Modal Legal Intelligence (Optional)
+pytesseract>=0.3.10  # OCR for scanned documents
+pillow>=10.0.0  # Image processing for OCR
+pdf2image>=1.16.3  # PDF to image conversion for OCR
+spacy>=3.7.0  # Named Entity Recognition (optional, requires model: python -m spacy download en_core_web_sm)
+openai-whisper>=20231117  # Speech-to-text transcription (optional)
+edge-tts>=6.1.0  # Text-to-speech synthesis (optional)

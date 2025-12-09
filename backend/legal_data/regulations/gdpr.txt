@@ -1,0 +1,107 @@
+
+REGULATION (EU) 2016/679 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL
+of 27 April 2016
+on the protection of natural persons with regard to the processing of personal data
+and on the free movement of such data, and repealing Directive 95/46/EC
+(General Data Protection Regulation)
+
+CHAPTER I - GENERAL PROVISIONS
+
+Article 1 - Subject matter and objectives
+1. This Regulation lays down rules relating to the protection of natural persons with regard to the processing of personal data and rules relating to the free movement of personal data.
+
+Article 2 - Material scope
+1. This Regulation applies to the processing of personal data wholly or partly by automated means and to the processing other than by automated means of personal data which form part of a filing system or are intended to form part of a filing system.
+
+Article 3 - Territorial scope
+1. This Regulation applies to the processing of personal data in the context of the activities of an establishment of a controller or a processor in the Union, regardless of whether the processing takes place in the Union or not.
+
+Article 4 - Definitions
+For the purposes of this Regulation:
+(1) 'personal data' means any information relating to an identified or identifiable natural person ('data subject');
+(2) 'processing' means any operation or set of operations which is performed on personal data or on sets of personal data;
+(3) 'consent' of the data subject means any freely given, specific, informed and unambiguous indication of the data subject's wishes;
+(4) 'controller' means the natural or legal person which determines the purposes and means of the processing of personal data;
+(5) 'processor' means a natural or legal person which processes personal data on behalf of the controller;
+
+CHAPTER II - PRINCIPLES
+
+Article 5 - Principles relating to processing of personal data
+1. Personal data shall be:
+   (a) processed lawfully, fairly and in a transparent manner;
+   (b) collected for specified, explicit and legitimate purposes;
+   (c) adequate, relevant and limited to what is necessary;
+   (d) accurate and kept up to date;
+   (e) kept in a form which permits identification for no longer than necessary;
+   (f) processed in a manner that ensures appropriate security.
+
+Article 6 - Lawfulness of processing
+1. Processing shall be lawful only if at least one of the following applies:
+   (a) the data subject has given consent;
+   (b) processing is necessary for the performance of a contract;
+   (c) processing is necessary for compliance with a legal obligation;
+   (d) processing is necessary to protect vital interests;
+   (e) processing is necessary for the performance of a task carried out in the public interest;
+   (f) processing is necessary for legitimate interests pursued by the controller.
+
+Article 7 - Conditions for consent
+1. Where processing is based on consent, the controller shall be able to demonstrate that the data subject has consented to processing.
+
+Article 8 - Conditions applicable to child's consent
+1. Where Article 6(1)(a) applies, in relation to the offer of information society services directly to a child, the processing of the personal data of a child shall be lawful where the child is at least 16 years old.
+
+Article 9 - Processing of special categories of personal data
+1. Processing of personal data revealing racial or ethnic origin, political opinions, religious or philosophical beliefs, or trade union membership, and the processing of genetic data, biometric data for the purpose of uniquely identifying a natural person, data concerning health or data concerning a natural person's sex life or sexual orientation shall be prohibited.
+
+CHAPTER III - RIGHTS OF THE DATA SUBJECT
+
+Article 15 - Right of access by the data subject
+1. The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed.
+
+Article 16 - Right to rectification
+1. The data subject shall have the right to obtain from the controller without undue delay the rectification of inaccurate personal data.
+
+Article 17 - Right to erasure ('right to be forgotten')
+1. The data subject shall have the right to obtain from the controller the erasure of personal data without undue delay.
+
+Article 20 - Right to data portability
+1. The data subject shall have the right to receive the personal data concerning him or her, which he or she has provided to a controller, in a structured, commonly used and machine-readable format.
+
+CHAPTER IV - CONTROLLER AND PROCESSOR
+
+Article 24 - Responsibility of the controller
+1. Taking into account the nature, scope, context and purposes of processing as well as the risks, the controller shall implement appropriate technical and organisational measures.
+
+Article 25 - Data protection by design and by default
+1. The controller shall implement appropriate technical and organisational measures designed to implement data protection principles.
+
+Article 32 - Security of processing
+1. The controller and the processor shall implement appropriate technical and organisational measures to ensure a level of security appropriate to the risk.
+
+CHAPTER V - TRANSFERS OF PERSONAL DATA TO THIRD COUNTRIES
+
+Article 44 - General principle for transfers
+Any transfer of personal data which are undergoing processing or are intended for processing after transfer to a third country or to an international organisation shall take place only if the conditions laid down in this Chapter are complied with.
+
+CHAPTER VI - INDEPENDENT SUPERVISORY AUTHORITIES
+
+Article 51 - Supervisory authority
+1. Each Member State shall provide for one or more independent public supervisory authorities.
+
+CHAPTER VII - COOPERATION AND CONSISTENCY
+
+Article 60 - Cooperation between the lead supervisory authority and the other supervisory authorities concerned
+
+CHAPTER VIII - REMEDIES, LIABILITY AND PENALTIES
+
+Article 77 - Right to lodge a complaint with a supervisory authority
+1. Without prejudice to any other administrative or judicial remedy, every data subject shall have the right to lodge a complaint with a supervisory authority.
+
+Article 82 - Right to compensation and liability
+1. Any person who has suffered material or non-material damage as a result of an infringement of this Regulation shall have the right to receive compensation from the controller or processor for the damage suffered.
+
+Article 83 - General conditions for imposing administrative fines
+1. Each supervisory authority shall ensure that the imposition of administrative fines is effective, proportionate and dissuasive.
+
+[Note: This is a summary. Full GDPR text has 99 articles and 173 recitals.
+Download complete text from: https://gdpr-info.eu/ or https://eur-lex.europa.eu/]

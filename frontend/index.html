@@ -1,21 +1,40 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <link rel="stylesheet" href="style.css">
-    <title>LegisAI Chatbot</title>
-</head>
-<body>
-<div class="chat-container">
-    <h2>LegisAI Chatbot</h2>
-
-    <div id="chat-box" class="chat-box"></div>
-
-    <div class="input-area">
-        <input type="text" id="user-input" placeholder="Type your message..." />
-        <button onclick="sendMessage()">Send</button>
-    </div>
-</div>
-
-<script src="script.js"></script>
-</body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LegisAI - Multi-Agent Legal Research and Drafting Assistant</title>
+    <meta name="description" content="AI-powered legal research, document drafting, and compliance checking" />
+  </head>
+  <body>
+    <!-- SVG Filter for Liquid Glass Effect -->
+    <svg width="0" height="0" style="position: absolute;">
+      <defs>
+        <filter id="glass-distortion" x="0%" y="0%" width="100%" height="100%">
+          <feTurbulence 
+            type="fractalNoise" 
+            baseFrequency="0.025 0.025"
+            numOctaves="2" 
+            seed="92" 
+            result="noise" 
+          />
+          <feGaussianBlur 
+            in="noise" 
+            stdDeviation="2" 
+            result="blurred" 
+          />
+          <feDisplacementMap 
+            in="SourceGraphic" 
+            in2="blurred" 
+            scale="65"
+            xChannelSelector="R" 
+            yChannelSelector="G" 
+          />
+        </filter>
+      </defs>
+    </svg>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>

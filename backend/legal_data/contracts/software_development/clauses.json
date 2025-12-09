@@ -1,0 +1,951 @@
+[
+  {
+    "clause_id": "cuad_test_222",
+    "clause_text": "Exhibit 10.18 Confidential EXECUTION COPY\n\nCERTAIN CONFIDENTIAL INFORMATION CONTAINED IN THIS DOCUMENT, MARKED BY [***], HAS BEEN OMITTED BECAUSE IT IS BOTH NOT MATERIAL AND WOULD BE COMPETITIVELY HARMFUL IF PUBLICLY DISCLOSED.\n\nDEVELOPMENT AND OPTION AGREEMENT\n\nbetween\n\nHARPOON THERAPEUTICS, INC.\n\nand\n\nABBVIE BIOTECHNOLOGY LTD\n\nDated as of November 20, 2019\n\nSource: HARPOON THERAPEUTICS, INC., 10-K, 3/12/2020\n\n\n\n\n\nTABLE OF CONTENTS\n\nARTICLE 1 DEFINITIONS 1\n\nARTICLE 2 COLLABORATION MANAGEMENT\n\n18\n\n2.1 Joint Governance Committee. 18 2.2 General Provisions Applicable to the JGC. 19 2.3 Discontinuation of the JGC. 20 2.4 Interactions Between the JGC and Internal Teams. 20 2.5 CMC Working Group. 21 2.6 Working Groups. 21 2.7 Expenses. 21\n\nARTICLE 3 DEVELOPMENT AND REGULATORY\n\n21\n\n3.1 Initial Development Plan and Activities. 21 3.2 AbbVie Option. 24 3.3 [***]. 25 3.4 Post-Exercise Development Activities. 26 3.5 Supply of Technology for Development Purposes. 27 3.6 Expenses and Invoicing. 27 3.7 Subcontracting. 28 3.8 Regulatory Matters. 28\n\nARTICLE 4 COMMERCIALIZATION 30\n\n4.1 In General. 30 4.2 Commercialization Diligence. 30 4.3 Booking of Sales; Distribution. 31 4.4 Product Trademarks. 31 4.5 Commercial Supply of Licensed Compounds or Licensed Products. 31\n\nARTICLE 5 GRANT OF RIGHTS\n\n33\n\n5.1 Grants to AbbVie. 33 5.2 Grants to Harpoon. 34 5.3 Sublicenses. 34 5.4 Distributorships. 34 5.5 Co-Promotion Rights. 34 5.6 Retention of Rights. 34 5.7 Confirmatory Patent License. 35 5.8 Ex",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 18,
+      "contract_title": "HarpoonTherapeuticsInc_20200312_10-K_EX-10.18_12051356_EX-10.18_Development Agreement",
+      "chunk_index": 0,
+      "original_length": 249551
+    }
+  },
+  {
+    "clause_id": "cuad_test_223",
+    "clause_text": "clusivity with Respect to the Territory. 35 5.9 In-License Agreements. 35\n\nARTICLE 6 PAYMENTS AND RECORDS\n\n36\n\n6.1 Upfront Payment. 36 6.2 Development and Regulatory Milestones. 36 6.3 First Commercial Sales Milestones. 37 6.4 Sales-Based Milestones. 37 6.5 Royalties. 38 6.6 Royalty Payments and Reports. 39 6.7 Mode of Payment; Offsets. 40 6.8 Withholding Taxes. 40\n\nSource: HARPOON THERAPEUTICS, INC., 10-K, 3/12/2020\n\n\n\n\n\n6.9 Indirect Taxes. 40 6.10 Interest on Late Payments. 41 6.11 Audit. 41 6.12 Audit Dispute. 41 6.13 Confidentiality. 41 6.14 [***] 41 6.15 No Other Compensation. 42\n\nARTICLE 7 INTELLECTUAL PROPERTY\n\n42\n\n7.1 Ownership of Intellectual Property. 42 7.2 Maintenance and Prosecution of Patents. 43 7.3 Enforcement of Patents. 45 7.4 Infringement Claims by Third Parties. 48 7.5 Invalidity or Unenforceability Defenses or Actions. 48 7.6 Product Trademarks. 49 7.7 International Nonproprietary Name. 50 7.8 Inventor's Remuneration. 50 7.9 Common Interest. 50\n\nARTICLE 8 PHARMACOVIGILANCE AND SAFETY\n\n50\n\n8.1 Pharmacovigilance. 50 8.2 Global Safety Database. 50\n\nARTICLE 9 CONFIDENTIALITY AND NON- DISCLOSURE\n\n51\n\n9.1 Product Information. 51 9.2 Confidentiality Obligations. 51 9.3 Permitted Disclosures. 52 9.4 Use of Name. 53 9.5 Public Announcements. 53 9.6 Publications. 54 9.7 Return of Confidential Information. 54 9.8 Survival. 54\n\nARTICLE 10 REPRESENTATIONS AND WARRANTIES\n\n55\n\n10.1 Mutual Representations and Warranties. 55 10.2 Additional Representations and Warranties",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 18,
+      "contract_title": "HarpoonTherapeuticsInc_20200312_10-K_EX-10.18_12051356_EX-10.18_Development Agreement",
+      "chunk_index": 1,
+      "original_length": 249551
+    }
+  },
+  {
+    "clause_id": "cuad_test_224",
+    "clause_text": "of Harpoon. 55 10.3 Covenants of Harpoon. 58 10.4 Covenants of AbbVie. 58 10.5 DISCLAIMER OF WARRANTIES. 59\n\nARTICLE 11 INDEMNITY 60\n\n11.1 Indemnification of Harpoon. 60 11.2 Indemnification of AbbVie. 60 11.3 Notice of Claim. 60 11.4 Control of Defense. 61 11.5 Special, Indirect, and Other Losses. 61 11.6 Insurance. 61\n\nARTICLE 12 TERM AND TERMINATION\n\n62\n\n12.1 Term. 62\n\n- ii -\n\nSource: HARPOON THERAPEUTICS, INC., 10-K, 3/12/2020\n\n\n\n\n\n12.2 Termination for Material Breach. 62 12.3 Additional Termination Rights by AbbVie. 63 12.4 Termination for Insolvency. 63 12.5 Rights in Bankruptcy. 63 12.6 Termination in Entirety. 63 12.7 Reversion of Harpoon Products. 66 12.8 Termination of Terminated Territory. 67 12.9 Remedies. 67 12.10 Accrued Rights; Surviving Obligations. 67\n\nARTICLE 13 MISCELLANEOUS 68\n\n13.1 Force Majeure. 68 13.2 Change in Control of Harpoon. 68 13.3 Export Control. 69 13.4 Assignment. 69 13.5 Severability. 70 13.6 Governing Law, Jurisdiction and Service. 70 13.7 Dispute Resolution. 70 13.8 Notices. 71 13.9 Entire Agreement; Amendments. 72 13.10 English Language. 72 13.11 Equitable Relief. 72 13.12 Waiver and Non-Exclusion of Remedies. 72 13.13 No Benefit to Third Parties. 72 13.14 Further Assurance. 73 13.15 Relationship of the Parties. 73 13.16 Performance by Affiliates. 73 13.17 Counterparts; Facsimile Execution. 73 13.18 References. 73 13.19 Schedules. 73 13.20 Construction. 73 SCHEDULES Schedule 1.84 Initial Development Plan Schedule 1.99 Licensed Compound Sc",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 18,
+      "contract_title": "HarpoonTherapeuticsInc_20200312_10-K_EX-10.18_12051356_EX-10.18_Development Agreement",
+      "chunk_index": 2,
+      "original_length": 249551
+    }
+  },
+  {
+    "clause_id": "cuad_test_225",
+    "clause_text": "hedule 3.7 Pre-Approved Third Party Providers Schedule 10.2 Disclosure Schedules Schedule 10.2.1 Existing Patents Schedule 13.7.3 Arbitration\n\n- iii -\n\nSource: HARPOON THERAPEUTICS, INC., 10-K, 3/12/2020\n\n\n\n\n\nDEVELOPMENT AND OPTION AGREEMENT\n\nThis Development and Option Agreement (the \"Agreement\") is made and entered into effective as of November 20, 2019 (the \"Effective Date\") by and between Harpoon Therapeutics, Inc., a Delaware corporation (\"Harpoon\"), and AbbVie Biotechnology Ltd, a Bermuda corporation (\"AbbVie\"). Harpoon and AbbVie are sometimes referred to herein individually as a \"Party\" and collectively as the \"Parties.\"\n\nRECITALS\n\nWHEREAS, Harpoon Controls (as defined herein) certain intellectual property rights with respect to the Licensed Compound (as defined herein) and Licensed Products (as defined herein) in the Territory (as defined herein); and\n\nWHEREAS, Harpoon wishes to grant an option to a license to AbbVie, and AbbVie wishes to take, such option to a license under such intellectual property rights to develop and commercialize Licensed Products in the Territory, in each case in accordance with the terms and conditions set forth below.\n\nNOW, THEREFORE, in consideration of the premises and the mutual promises and conditions hereinafter set forth, and other good and valuable consideration, the receipt and sufficiency of which are hereby acknowledged, the Parties, intending to be legally bound, do hereby agree as follows:\n\nARTICLE 1 DEFINITIONS\n\nUnless otherwis",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 18,
+      "contract_title": "HarpoonTherapeuticsInc_20200312_10-K_EX-10.18_12051356_EX-10.18_Development Agreement",
+      "chunk_index": 3,
+      "original_length": 249551
+    }
+  },
+  {
+    "clause_id": "cuad_test_226",
+    "clause_text": "e specifically provided herein, the following terms shall have the following meanings:\n\n1.1 \"AbbVie\" has the meaning set forth in the preamble hereto.\n\n1.2 [***] has the meaning set forth in [***]\n\n1.3 [***] has the meaning set forth in [***].\n\n1.4 [***] has the meaning set forth in [***]\n\n1.5 [***] has the meaning set forth in [***].\n\n1.6 \"AbbVie [***] Rights\" has the meaning set forth in Section 5.9.2.\n\n1.7 \"AbbVie Indemnitees\" has the meaning set forth in Section 11.2.\n\n1.8 \"AbbVie Know-How\" means all Information that is (a) Controlled by AbbVie or any of its Affiliates during the Term, (b) developed or acquired by AbbVie or any of its Affiliates during the Term as a result of performance under this Agreement, (c) not generally known and (d) necessary or reasonably useful for the Exploitation of the Licensed Compound or a Licensed Product, but excluding any Joint Know-How or Information published in any AbbVie Patents or Joint Patents.\n\n1.9 \"AbbVie Patents\" means all of the Patents that (a) are Controlled by AbbVie or any of its Affiliates during the Term, (b) claim inventions made or conceived by or on behalf of AbbVie or any of its Affiliates during the Term as a result of performance under this Agreement, and (c) are necessary or reasonably useful (or, with respect to patent applications, would be necessary or reasonably useful if such\n\nSource: HARPOON THERAPEUTICS, INC., 10-K, 3/12/2020\n\n\n\n\n\npatent applications were to issue as patents) for the Exploitation of the Lice",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 18,
+      "contract_title": "HarpoonTherapeuticsInc_20200312_10-K_EX-10.18_12051356_EX-10.18_Development Agreement",
+      "chunk_index": 4,
+      "original_length": 249551
+    }
+  },
+  {
+    "clause_id": "cuad_test_227",
+    "clause_text": "nsed Compound or a Licensed Product, but excluding any Joint Patents.\n\n1.10 \"AbbVie Reversion IP\" has the meaning set forth in Section 12.7.1.\n\n1.11 \"AbbVie Withholding Tax Action\" has the meaning set forth in Section 6.8.2.\n\n1.12 \"Acceptance\" means, with respect to a Drug Approval Application, receipt of written notice from the applicable Regulatory Authority indicating that such Drug Approval Application has been accepted for filing and further review.\n\n1.13 \"Accounting Standards\" means, with respect to a Party, that such Party shall maintain records and books of accounts in accordance with United States Generally Accepted Accounting Principles.\n\n1.14 \"Acquisition\" means, with respect to a Party, a merger, acquisition (whether of all of the stock or all or substantially all of the assets of a Person or any operating or business division of a Person) or similar transaction by or with the Party, other than a Change in Control of the Party.\n\n1.15 \"Adverse Ruling\" has the meaning set forth in Section 12.2.1.\n\n1.16 \"Affiliate\" means, with respect to a Party, any Person that, directly or indirectly, through one (1) or more intermediaries, controls, is controlled by or is under common control with such Party. For purposes of this definition, \"control\" and, with correlative meanings, the terms \"controlled by\" and \"under common control with\" means (a) the possession, directly or indirectly, of the power to direct the management or policies of a Person, whether through the ownership",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 18,
+      "contract_title": "HarpoonTherapeuticsInc_20200312_10-K_EX-10.18_12051356_EX-10.18_Development Agreement",
+      "chunk_index": 5,
+      "original_length": 249551
+    }
+  },
+  {
+    "clause_id": "cuad_test_228",
+    "clause_text": "of voting securities, by contract relating to voting rights or corporate governance, or otherwise; or (b) the ownership, directly or indirectly, of more than fifty percent (50%) of the voting securities or other ownership interest of a Person (or, with respect to a limited partnership or other similar entity, its general partner or controlling entity). The Parties acknowledge that in the case of certain entities organized under the laws of certain countries outside of the United States, the maximum percentage ownership permitted by law for a foreign investor may be less than fifty percent (50%), and that in such case such lower percentage shall be substituted in the preceding sentence, provided that such foreign investor has the power to direct the management or policies of such entity.\n\n1.17  \"Agreement\" has the meaning set forth in the preamble hereto.\n\n1.18 \"Alliance Manager\" has the meaning set forth in Section 2.2.5.\n\n1.19 \"Applicable Law\" means federal, state, local, national and supra-national laws, statutes, rules, and regulations, including any rules, regulations, regulatory guidelines, or other requirements of the Regulatory Authorities, major national securities exchanges or major securities listing organizations, that may be in effect from time to time during the Term and applicable to a particular activity or country or other jurisdiction hereunder.\n\n1.20 \"Audit Expert\" has the meaning set forth in Section 6.12.\n\n1.21 \"Bankruptcy Code\" has the meaning set forth i",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 18,
+      "contract_title": "HarpoonTherapeuticsInc_20200312_10-K_EX-10.18_12051356_EX-10.18_Development Agreement",
+      "chunk_index": 6,
+      "original_length": 249551
+    }
+  },
+  {
+    "clause_id": "cuad_test_229",
+    "clause_text": "n Section 12.5.1.\n\n1.22 \"BCMA\" means that specific protein known as B-cell maturation antigen or tumor necrosis factor receptor superfamily member 17 (TNFRSF17) or CD269 in addition to any other known aliases [***].\n\n- 2 -\n\nSource: HARPOON THERAPEUTICS, INC., 10-K, 3/12/2020\n\n\n\n\n\n1.23 \"Biosimilar Application\" has the meaning set forth in Section 7.3.3.\n\n1.24 \"Biosimilar Product\" means, with respect to a particular Licensed Product in a particular country, a biologic product that is (a) substantially similar to or interchangeable with such Licensed Product, such that the application for a BLA for such biologic product submitted to the applicable Regulatory Authority relies in whole or in part on a prior BLA granted to such Licensed Product (including any application for such biological product submitted under Section 351(k) of the PHSA or successor law, or other analogous Applicable Law, citing the Licensed Product as the reference product), or (b) determined by the applicable Regulatory Authority to be interchangeable with such Licensed Product, as set forth at 42 U.S.C. § 262(k)(4) or successor law, or other analogous Applicable Law outside of the United States. A biological product licensed under the same BLA as the Licensed Product will not constitute a Biosimilar Product.\n\n1.25 \"BLA\" has the meaning set forth in the definition of \"Drug Approval Application.\"\n\n1.26 \"Board of Directors\" has the meaning set forth in the definition of \"Change in Control.\"\n\n1.27 \"Breaching Par",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 18,
+      "contract_title": "HarpoonTherapeuticsInc_20200312_10-K_EX-10.18_12051356_EX-10.18_Development Agreement",
+      "chunk_index": 7,
+      "original_length": 249551
+    }
+  },
+  {
+    "clause_id": "cuad_test_230",
+    "clause_text": "ty\" has the meaning set forth in Section 12.2.1.\n\n1.28 \"Business Day\" means a day other than a Saturday or Sunday on which banking institutions in New York, New York are open for business.\n\n1.29 \"Calendar Quarter\" means each successive period of three (3) calendar months commencing on January 1, April 1, July 1 and October 1, except that the first Calendar Quarter of the Term shall commence on the Effective Date and end on the day immediately prior to the first to occur of January 1, April 1, July 1 or October 1 after the Effective Date, and the last Calendar Quarter shall end on the last day of the Term.\n\n1.30 \"Calendar Year\" means each successive period of twelve (12) calendar months commencing on January 1 and ending on December 31, except that the first Calendar Year of the Term shall commence on the Effective Date and end on December 31 of the year in which the Effective Date occurs and the last Calendar Year of the Term shall commence on January 1 of the year in which the Term ends and end on the last day of the Term.\n\n1.31 \"Change in Control,\" with respect to a Party, shall be deemed to have occurred if any of the following occurs after the Effective Date:\n\n1.31.1 any \"person\" or \"group\" (as such terms are defined below) (a) is or becomes the \"beneficial owner\" (as defined below), directly or indirectly, of shares of capital stock or other interests (including partnership interests) of such Party then outstanding and normally entitled (without regard to the occurrence",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 18,
+      "contract_title": "HarpoonTherapeuticsInc_20200312_10-K_EX-10.18_12051356_EX-10.18_Development Agreement",
+      "chunk_index": 8,
+      "original_length": 249551
+    }
+  },
+  {
+    "clause_id": "cuad_test_231",
+    "clause_text": "of any contingency) to vote in the election of the directors, managers or similar supervisory positions (\"Voting Stock\") of such Party representing fifty percent (50%) or more of the total voting power of all outstanding classes of Voting Stock of such Party or (b) has the power, directly or indirectly, to elect a majority of the members of the Party's board of directors, or similar governing body (\"Board of Directors\"); excluding in each case (subclauses (a) and (b)) [***]; or\n\n1.31.2 such Party enters into a merger, consolidation or similar transaction with another Person (whether or not such Party is the surviving entity) and as a result of such merger, consolidation or similar transaction (a) the members of the Board of Directors of such Party immediately prior to such transaction constitute less than a majority of the members of the Board of Directors of such Party or such surviving Person immediately following such transaction or (b) the Persons that beneficially owned, directly\n\n- 3 -\n\nSource: HARPOON THERAPEUTICS, INC., 10-K, 3/12/2020\n\n\n\n\n\nor indirectly, the shares of Voting Stock of such Party immediately prior to such transaction cease to beneficially own, directly or indirectly, shares of Voting Stock of such Party representing at least a majority of the total voting power of all outstanding classes of Voting Stock of the surviving Person in substantially the same proportions as their ownership of Voting Stock of such Party immediately prior to such transaction; o",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 18,
+      "contract_title": "HarpoonTherapeuticsInc_20200312_10-K_EX-10.18_12051356_EX-10.18_Development Agreement",
+      "chunk_index": 9,
+      "original_length": 249551
+    }
+  },
+  {
+    "clause_id": "cuad_test_232",
+    "clause_text": "r\n\n1.31.3 such Party sells or transfers to any Third Party, in one (1) or more related transactions, properties or assets representing all or substantially all of such Party's assets to which this Agreement relates; or\n\n1.31.4 the holders of capital stock of such Party approve a plan or proposal for the liquidation or dissolution of such Party.\n\nFor the purpose of this definition of Change in Control, (a) \"person\" and \"group\" have the meanings given such terms under Section 13(d) and 14(d) of the United States Securities Exchange Act of 1934 and the term \"group\" includes any group acting for the purpose of acquiring, holding or disposing of securities within the meaning of Rule 13d-5(b)(1) under the said Act; (b) a \"beneficial owner\" shall be determined in accordance with Rule 13d-3 under the aforesaid Act; and (c) the terms \"beneficially owned\" and \"beneficially own\" shall have meanings correlative to that of \"beneficial owner.\"\n\n1.32 [***]\n\n1.33 \"Clinical Data\" means [***] Information with respect to any Licensed Compound or Licensed Product and made, collected, or otherwise generated under or in connection with Clinical Studies, including any data (including raw data), reports, and results with respect thereto.\n\n1.34 \"Clinical Studies\" means Phase 0, Phase I, Phase II, Phase III, and such other tests and studies in human subjects that are required by Applicable Law, or otherwise recommended by the Regulatory Authorities, to obtain or maintain Regulatory Approvals for a Lic",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 18,
+      "contract_title": "HarpoonTherapeuticsInc_20200312_10-K_EX-10.18_12051356_EX-10.18_Development Agreement",
+      "chunk_index": 10,
+      "original_length": 249551
+    }
+  },
+  {
+    "clause_id": "cuad_test_233",
+    "clause_text": "ensed Product for one (1) or more indications, including tests or studies that are intended to expand the Product Labeling for such Licensed Product with respect to such indication.\n\n1.35 \"CMC\" has the meaning set forth in the definition of \"Initial Development Plan.\"\n\n1.36 \"CMC Working Group\" has the meaning set forth in Section 2.5.\n\n1.37 \"Combination Product\" means a Licensed Product that is: (a) sold in the form of a combination product containing both a Licensed Compound and one (1) or more other therapeutically active pharmaceutical or biologic products; or (b) sold in a form that contains (or is sold bundled with) any (i) diagnostic product or (ii) other product that is administered separately from the Licensed Product, in both cases (subclauses (a) and (b)) sold as a unit at a single price and excluding any Delivery System.\n\n1.38 \"Commercialization\" means any and all activities directed to the preparation for sale of, offering for sale of, or sale of a Licensed Compound or Licensed Product, including activities related to marketing, promoting, distributing, importing and exporting such Licensed Compound or Licensed Product, and interacting with Regulatory Authorities regarding any of the foregoing. When used as a verb, \"to Commercialize\" and \"Commercializing\" means to engage in Commercialization, and \"Commercialized\" has a corresponding meaning.\n\n1.39 \"Commercially Reasonable Efforts\" means with respect to [***].\n\n- 4 -\n\nSource: HARPOON THERAPEUTICS, INC., 10-K, 3/12/",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 18,
+      "contract_title": "HarpoonTherapeuticsInc_20200312_10-K_EX-10.18_12051356_EX-10.18_Development Agreement",
+      "chunk_index": 11,
+      "original_length": 249551
+    }
+  },
+  {
+    "clause_id": "cuad_test_234",
+    "clause_text": "2020\n\n\n\n\n\n1.40 [***]\n\n1.41 \"Competitor\" means any Person that [***], or (b) that [***].\n\n1.42 \"Confidential Information\" means any Information provided orally, visually, in writing or other form by or on behalf of one (1) Party (or an Affiliate or representative of such Party) to the other Party (or to an Affiliate or representative of such other Party) in connection with this Agreement, whether prior to, on, or after the Effective Date, including Information relating to the terms of this Agreement, the Licensed Compound or any Licensed Product (including the Regulatory Documentation and regulatory data), any Exploitation of the Licensed Compound or any Licensed Product, any know-how with respect thereto developed by or on behalf of the disclosing Party or its Affiliates, or the scientific, regulatory or business affairs or other activities of either Party. Notwithstanding the foregoing, (a) Joint Know-How shall be deemed to be the Confidential Information of both Parties, and both Parties shall be deemed to be the receiving Party and the disclosing Party with respect thereto, and (b) following the License Option Exercise Closing Date, all Regulatory Documentation owned by AbbVie pursuant to Section 3.8.2 shall be deemed to be the Confidential Information of AbbVie, and AbbVie shall be deemed to be the disclosing Party and Harpoon shall be deemed to be the receiving Party with respect thereto. In addition, all information disclosed by Harpoon to AbbVie under the Prior NDA sha",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 18,
+      "contract_title": "HarpoonTherapeuticsInc_20200312_10-K_EX-10.18_12051356_EX-10.18_Development Agreement",
+      "chunk_index": 12,
+      "original_length": 249551
+    }
+  },
+  {
+    "clause_id": "cuad_test_235",
+    "clause_text": "ll be deemed to be Harpoon's Confidential Information disclosed hereunder, and all information disclosed by AbbVie Inc. to Harpoon under the Prior NDA shall be deemed to be AbbVie's Confidential Information disclosed hereunder.\n\n- 5 -\n\nSource: HARPOON THERAPEUTICS, INC., 10-K, 3/12/2020\n\n\n\n\n\n1.43 \"Control\" means, with respect to any item of Information, Regulatory Documentation, material, Patent, or other property right, the possession of the right, whether directly or indirectly, and whether by ownership, license or otherwise (other than by operation of the license and other grants in Sections 5.1 or 5.2), to grant a license, sublicense or other right (including the right to reference Regulatory Documentation) to or under such Information, Regulatory Documentation, material, Patent, or other property right as provided for herein without violating the terms of any agreement or other arrangement with any Third Party. \"Controlled\" has a corresponding meaning.\n\n1.44 \"CSR Notification Date\" has the meaning set forth in Section 12.6.3(e).\n\n1.45 \"Default Notice\" has the meaning set forth in Section 12.2.1.\n\n1.46 \"Delivery System\" has the meaning set forth in the definition of \"Net Sales.\"\n\n1.47 \"Development\" means all activities related to pre-clinical and other non-clinical testing, test method development and stability testing, toxicology, formulation, process development, manufacturing scale-up, qualification and validation, quality assurance/quality control, Clinical Studies, i",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 18,
+      "contract_title": "HarpoonTherapeuticsInc_20200312_10-K_EX-10.18_12051356_EX-10.18_Development Agreement",
+      "chunk_index": 13,
+      "original_length": 249551
+    }
+  },
+  {
+    "clause_id": "cuad_test_236",
+    "clause_text": "ncluding Manufacturing in support thereof, statistical analysis and report writing, the preparation and submission of Drug Approval Applications, regulatory affairs with respect to the foregoing and all other activities necessary or reasonably useful or otherwise requested or required by a Regulatory Authority as a condition or in support of obtaining or maintaining a Regulatory Approval. When used as a verb, \"Develop\" means to engage in Development. For purposes of clarity, Development shall include any submissions and activities required in support thereof, required by Applicable Laws or a Regulatory Authority as a condition or in support of obtaining a pricing or reimbursement approval for an approved Licensed Product.\n\n1.48 \"Development Report Review Deadline\" means [***] following the initial delivery of any [***], as applicable.\n\n1.49 \"Dispute\" has the meaning set forth in Section 13.7.\n\n1.50 \"Distributor\" has the meaning set forth in Section 5.4.\n\n1.51 \"Divestiture\" means, with respect to a Party, (a) the divestiture [***] through [***] or [***] with respect to [***] (for clarity, the [***] for any such divestiture), or (b) [***]. When used as a verb, \"Divest\" and \"Divested\" means to cause a Divestiture.\n\n1.52 \"Dollars\" or \"$\" means United States Dollars.\n\n1.53 \"Drug Approval Application\" means a Biologics License Application (a \"BLA\") as defined in the PHSA, or any corresponding foreign application in the Territory, including, with respect to the European Union, a Mar",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 18,
+      "contract_title": "HarpoonTherapeuticsInc_20200312_10-K_EX-10.18_12051356_EX-10.18_Development Agreement",
+      "chunk_index": 14,
+      "original_length": 249551
+    }
+  },
+  {
+    "clause_id": "cuad_test_281",
+    "clause_text": "Exhibit 10.54 DISTRIBUTION AND DEVELOPMENT AGREEMENT This Distribution and Development Agreement (this \"Agreement\") is made and entered into as of May 1, 2016 by and between Sekisui Diagnostics, LLC and its Affiliates, a Delaware limited liability company with principal offices at 4 Hartwell Place, Lexington, Massachusetts 02421 (\"Sekisui\"), and Qualigen, Inc. and its Affiliates, a Delaware corporation with principal offices at 2042 Corte Del Nogal, Carlsbad, California 92011 (\"Qualigen\" and together with Sekisui, each a \"Party\" and together the \"Parties\"). WHEREAS, Qualigen is engaged in the manufacture, supply and development of certain clinical rapid diagnostic test devices and controls; and WHEREAS, Qualigen wishes to appoint Sekisui as its exclusive distributor for such products in the Territory (as defined below); and WHEREAS, Sekisui wishes to be appointed as the exclusive distributor of such products and to fund the development of certain future products. NOW, THEREFORE, in consideration of the mutual covenants hereinafter contained, the parties hereto agree as follows: 1. Definitions 1.1. Adverse Event shall mean an incident in which the Product was alleged to have caused or contributed to the death or serious injury of a patient or operator and would require submitting a Medical Devices Report to the FDA (as hereinafter defined) as per 21 CFR 803, or a similar report to a Competent Authority (as hereinafter defined) as per Vigilance Guidance MEDDEV 2.12-1. 1.2. Affi",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 24,
+      "contract_title": "RitterPharmaceuticalsInc_20200313_S-4A_EX-10.54_12055220_EX-10.54_Development Agreement",
+      "chunk_index": 0,
+      "original_length": 122688
+    }
+  },
+  {
+    "clause_id": "cuad_test_282",
+    "clause_text": "liate shall mean, (i) with respect to Qualigen, any corporation or other form of business organization, which directly or indirectly owns, controls, is controlled by, or is under common control with Qualigen, and (ii), with respect to Sekisui, shall mean Sekisui Diagnostics (UK) Ltd., Sekisui Diagnostics PEI, Inc., SEKISUI MEDICAL CO., LTD., and Sekisui Diagnostics GmbH. An entity shall be regarded as being in control of another entity if the former entity has the direct or indirect power to vote more than fifty percent (50%) of the outstanding voting securities (or other ownership interest for a business organization other than a corporation) of that entity, or the direct or indirect ability to direct or cause the direction of the general management and policies of the other entity. 1.3. Applicable Markets shall mean the United States, Canada, the European Union, Japan and other additional geographies that are added from time to time at the request of Sekisui, but only to the extent that it is commercially reasonable for Qualigen to expand to such additional geographies. 1.4. Available Margin is defined on Exhibit A. 1.5. Business Plan shall mean the business plan attached as Exhibit B hereto, which business plan may be amended from time to time by mutual agreement of Qualigen and Sekisui. 1.6. COGS is defined on Exhibit A.\n\nSource: RITTER PHARMACEUTICALS INC, S-4/A, 3/13/2020\n\n\n\n\n\n1.7. Competent Authority shall mean the governmental authority in a member state of the Europe",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 24,
+      "contract_title": "RitterPharmaceuticalsInc_20200313_S-4A_EX-10.54_12055220_EX-10.54_Development Agreement",
+      "chunk_index": 1,
+      "original_length": 122688
+    }
+  },
+  {
+    "clause_id": "cuad_test_283",
+    "clause_text": "an Union which has competence in relation to the Products. 1.8. Development Plan shall mean the development plan attached as Exhibit C hereto, which development plan may be amended from time to time by mutual agreement of Qualigen and Sekisui. 1.9. Effective Date shall mean May 1, 2016. 1.10. European Union shall mean the countries in Europe that are under the CE mark regulatory regime. 1.11. Exclusivity Period shall mean the period from the Effective Date until December 31, 2018. 1.12. FDA shall mean the U.S. Food and Drug Administration or any successor agency. 1.13. Health Canada shall mean the department of the government of Canada with responsibility for national public health. 1.14. Intellectual Property Rights means all intellectual property rights in any jurisdiction worldwide, including, without limitation: (a) Patent Rights; (b) rights associated with works of authorship including copyrights, copyright applications, and copyright registrations; (c) rights relating to the protection of trade secrets, know-how or confidential information; and (d) rights in any trade names, trademarks, service marks, domain names, logos, trade dress and brand features. 1.15. Net Revenue is defined on Exhibit A. 1.16. Patent Rights means all patents, patent applications and inventions on which patent applications are filed and all patents issuing therefrom worldwide, together with any extensions, registrations, confirmations, reissues, continuations, divisionals, continuations- in-part,",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 24,
+      "contract_title": "RitterPharmaceuticalsInc_20200313_S-4A_EX-10.54_12055220_EX-10.54_Development Agreement",
+      "chunk_index": 2,
+      "original_length": 122688
+    }
+  },
+  {
+    "clause_id": "cuad_test_284",
+    "clause_text": "re-examination certificates, substitutions or renewals, supplemental protection certificates, term extensions (under applicable patent law or other law), provisional rights and certificates of inventions. 1.17. Potentially Serious Complaint shall mean any information coming to the notice of Qualigen or Sekisui which might relate to a Serious Incident (as hereinafter defined), or to a significant lapse in the quality of the Products, or might lead to significant adverse public or media comment, or otherwise significantly, adversely affect the reputation or business of Sekisui or Qualigen. 1.18. Products shall mean all of Qualigen's current and future products, including without limitation those listed on Exhibit D, for sale under the trade names listed with such products, including any improvements thereto. 1.19. Qualigen Retained Customers shall mean certain of Qualigen's existing direct sales customers, all as listed on Exhibit E. 1.20. Regulatory Approval shall mean the approval of the applicable Regulatory Authority required for the promotion, marketing, distribution and/or sale of the Products in any territory in which they are being sold, including any Product registration or license, and any supplement, amendment or variation thereto, required before the commencement of commercial sales of the Products in such territory, and export and import approvals for the Products. 2\n\nSource: RITTER PHARMACEUTICALS INC, S-4/A, 3/13/2020\n\n\n\n\n\n1.21. Regulatory Authorities shall mean",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 24,
+      "contract_title": "RitterPharmaceuticalsInc_20200313_S-4A_EX-10.54_12055220_EX-10.54_Development Agreement",
+      "chunk_index": 3,
+      "original_length": 122688
+    }
+  },
+  {
+    "clause_id": "cuad_test_285",
+    "clause_text": "the FDA, each Competent Authority, Health Canada and the Japanese Pharmaceuticals and Medical Devices Agency. 1.22. Revenue Affiliate shall mean any entity of which Sekisui has the direct or indirect power to vote more than fifty percent (50%) of the outstanding voting securities (or other ownership interest for a business organization other than a corporation) of that entity, or the direct or indirect ability to direct or cause the direction of the general management and policies of that entity. 1.23. Sale Transaction shall mean (i) any transaction in which Qualigen, Qualigen's business or control of Qualigen is acquired, (ii) any license, sale, lease, transfer, or other disposition, in a single transaction or series of related transactions, of all or substantially all of Qualigen's assets other than in the ordinary course of business, (iii) any sale of a majority of the outstanding shares of capital stock of Qualigen, (iv) any sale or license of any rights to any Qualigen products, now or hereafter existing, other than in the ordinary course of business, (v) any liquidation or dissolution of Qualigen, (vi) any similar transaction resulting in a change of control of Qualigen, or (vii) any of the foregoing with respect to any now or hereafter existing subsidiary of Qualigen which holds, on a consolidated basis, all or substantially all of Qualigen's assets (i.e., of the assets of Qualigen and all its Affiliates considered together). 1.24. Serious Incident shall mean an incid",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 24,
+      "contract_title": "RitterPharmaceuticalsInc_20200313_S-4A_EX-10.54_12055220_EX-10.54_Development Agreement",
+      "chunk_index": 4,
+      "original_length": 122688
+    }
+  },
+  {
+    "clause_id": "cuad_test_286",
+    "clause_text": "ent involving the Products, which is reportable to a Competent Authority and as defined in Section 5 of Annex III of the IVD Directive, and the European Commission Medical Devices Vigilance Guidelines 2.12-1 or such other Guidelines as may be issued from time to time. 1.25. Territory shall mean worldwide excluding Qualigen Retained Customers. 1.26. Third Party shall mean a party other than Sekisui or Qualigen or any Affiliate of Sekisui or Qualigen. 2. Appointment and Term 2.1. Appointment. Qualigen hereby appoints Sekisui, and Sekisui accepts the appointment to act on an exclusive basis pursuant to the terms and conditions of this Agreement, as a distributor for the sale of the Products in the Territory. Sekisui shall be permitted to appoint sub-distributors in the Territory (including any current Qualigen distributors) with the approval of Qualigen, not to be unreasonably withheld or delayed. Sekisui shall purchase the Products exclusively from Qualigen, and Qualigen shall supply the Products exclusively to Sekisui, in each case for the Territory. Qualigen shall assign to Sekisui Qualigen's agreements with Qualigen's current distributors (such that such current Qualigen distributors shall become Sekisui subdistributors), each of which is set forth on Schedule 2.1 hereto; if any of such agreements do not allow such assignment and the current distributor declines to consent to such an assignment to Sekisui, Qualigen shall (if Sekisui so requests) act pursuant to such agreemen",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 24,
+      "contract_title": "RitterPharmaceuticalsInc_20200313_S-4A_EX-10.54_12055220_EX-10.54_Development Agreement",
+      "chunk_index": 5,
+      "original_length": 122688
+    }
+  },
+  {
+    "clause_id": "cuad_test_287",
+    "clause_text": "t to terminate such agreement. 2.2. Term. The initial term of this Agreement shall commence on the Effective Date and shall continue for a period of five (5) years unless earlier terminated pursuant to Section 14 hereof (the \"Term\"). The initial term of this Agreement and any renewal term thereof shall be automatically extended at the end of the initial term and any renewal term thereof for an additional one (1) year period unless either Party notifies the other Party not less than six (6) months before the end of the then in effect term of its intent to terminate this Agreement. References in this Agreement to \"Term\" shall be deemed to include the initial five (5) year term as well as a reduction or extension of that time period that may occur as a result of the provision of this Section 0 or the provisions of Section 14. 3\n\nSource: RITTER PHARMACEUTICALS INC, S-4/A, 3/13/2020\n\n\n\n\n\n2.3. Customer Product Rentals. All instruments placed with customers under a rental program during the Term shall be owned by Sekisui (\"Sekisui Instruments\"), while Qualigen shall retain ownership of instruments placed with customers under a rental program before the execution of this Agreement (\"Qualigen Instruments\") and any instruments (including FastPack® 2.0) placed by Qualigen to the Qualigen Retained Customers. 2.4. Qualigen Retained Customers. In addition to the retention of the Qualigen Instruments, Qualigen shall be permitted to continue selling the existing Qualigen products directly to",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 24,
+      "contract_title": "RitterPharmaceuticalsInc_20200313_S-4A_EX-10.54_12055220_EX-10.54_Development Agreement",
+      "chunk_index": 6,
+      "original_length": 122688
+    }
+  },
+  {
+    "clause_id": "cuad_test_288",
+    "clause_text": "the Qualigen Retained Customers. However, Qualigen shall not engage any distributors (whether exclusive or non-exclusive) other than Sekisui for the Qualigen Retained Customers. Sekisui shall not, and shall cause its subdistributors not to, market, rent or sell any Products to the Qualigen Retained Customers. 3. Supply; Orders 3.1. Supply. Qualigen shall supply Sekisui with all of Sekisui's commercial requirements for the Product in the Applicable Markets. All Products supplied by Qualigen to Sekisui shall have on the date of shipment by Qualigen a shelf life of not less than a minimum three (3) month shelf life for products shipped within the United States and not less than a minimum four (4) month shelf life for products shipped outside the United States (or such longer shelf-life as may be mutually agreed by Qualigen and a Sekisui customer with respect to a specific customer order). Qualigen shall use reasonable efforts to assure that the Products, as manufactured by Qualigen, conform to the applicable product specifications and requirements of the Regulatory Authorities in, and are manufactured in accordance with all Regulatory Approvals, laws and regulations applicable to the Products in the Applicable Markets. Qualigen shall maintain the necessary records to comply with all Regulatory Approvals and other applicable rules and regulations in the Applicable Markets. 3.2. Forecast. Sekisui shall submit to Qualigen by the fifth day of each calendar month a rolling twelve (1",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 24,
+      "contract_title": "RitterPharmaceuticalsInc_20200313_S-4A_EX-10.54_12055220_EX-10.54_Development Agreement",
+      "chunk_index": 7,
+      "original_length": 122688
+    }
+  },
+  {
+    "clause_id": "cuad_test_289",
+    "clause_text": "2) month (month-by-month) forecast of the quantity of each Product that Sekisui anticipates selling during the following twelve (12) months (the \"Forecast\"). As to Reagent Kits each respective Forecast shall represent reasonable estimates to be used for planning and inventory stocking purposes as indicated in Exhibit D, and shall not be binding on Sekisui; provided, however, that as to Instruments the quantities for each of the first three months of each respective Forecast shall be deemed to constitute and shall constitute firm, binding orders for such quantities of Instruments in such respective months (but in no event for a lesser quantity for a month than the quantity for such month which, pursuant to an earlier Forecast, had already become a firm, binding order). 4\n\nSource: RITTER PHARMACEUTICALS INC, S-4/A, 3/13/2020\n\n\n\n\n\n3.3. Orders. Orders shall be processed as set forth in Exhibit F. Each purchase order shall be governed by the terms and conditions of this Agreement (regardless of whether such purchase order references the Agreement). Sekisui shall be allowed to, for convenience, document its purchase orders by using Sekisui's standard form of purchase order, but in no event shall anything in such purchase order vary, contradict or augment the terms of this Agreement, and the parties agree that any \"preprinted\" provisions in the purchase orders shall, if they are inconsistent with or additive to this Agreement, simply be disregarded and shall be deemed inapplicable a",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 24,
+      "contract_title": "RitterPharmaceuticalsInc_20200313_S-4A_EX-10.54_12055220_EX-10.54_Development Agreement",
+      "chunk_index": 8,
+      "original_length": 122688
+    }
+  },
+  {
+    "clause_id": "cuad_test_290",
+    "clause_text": "nd/or rejected (regardless of acceptance, performance or apparent acquiescence, none of which shall constitute or be construed to constitute Qualigen's or Sekisui's consent to or recognition of terms, conditions or provisions that are different from or are not contained in this Agreement), unless in a separate and nonboilerplate agreement which expressly identifies and waives this Section 3.3 Qualigen agrees to accept such \"preprinted\" term. Similarly, Qualigen shall be allowed to, for convenience, document its acknowledgements, confirmations and similar instruments by using Qualigen's standard form of acknowledgement, confirmation and similar instruments, but in no event shall anything in such acknowledgements, confirmations and similar instruments vary, contradict or augment the terms of this Agreement, and the Parties agree that any \"preprinted\" provisions in the acknowledgements, confirmations and similar instruments shall, if they are inconsistent with or additive to this Agreement, simply be disregarded and be deemed inapplicable and/or rejected (regardless of acceptance, performance or apparent acquiescence, none of which shall constitute or be construed to constitute Qualigen's or Sekisui's consent to or recognition of terms, conditions or provisions that are different from or are not contained in this Agreement), unless in a separate and nonboilerplate agreement which expressly identifies and waives this Section 3.3 Sekisui agrees to accept such \"preprinted\" term. 3.",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 24,
+      "contract_title": "RitterPharmaceuticalsInc_20200313_S-4A_EX-10.54_12055220_EX-10.54_Development Agreement",
+      "chunk_index": 9,
+      "original_length": 122688
+    }
+  },
+  {
+    "clause_id": "cuad_test_291",
+    "clause_text": "4. Product Records. Qualigen shall test or cause to be tested each lot of Product purchased by Sekisui. Qualigen shall provide Sekisui with copies of any Product test records requested or Sekisui may audit Qualigen to review the Product test records. 3.5. No Alterations or Mishandling. Sekisui shall not, and shall also cause its subdistributors not to, alter or modify (or add to or subtract from) in any way any Products delivered by Qualigen hereunder. Sekisui shall, and shall also cause its subdistributors to, handle, store and transport the Products in accordance with Qualigen's guidelines and shall not, and shall also cause its subdistributors not to, subject such Products to abuse, mishandling or unusual physical, thermal, chemical or electrical stress or sell any Product after its expiration date. 3.6. Packaging and Labeling. The Products shall be delivered by Qualigen, and Sekisui shall cause the Products to be delivered to end users, in Qualigen packaging and with Qualigen labeling, all as intended to be received by the end user. Such packaging and labeling (and the Products themselves) (and \"product inserts,\" which Qualigen may provide online so long as it is done in compliance with all legal requirements of the applicable jurisdiction) shall include such Qualigen trade names, brand names, trademarks and logos (and patent notices) as Qualigen shall select and with such size, colors, positioning and prominence as Qualigen shall select in its sole discretion, and shall",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 24,
+      "contract_title": "RitterPharmaceuticalsInc_20200313_S-4A_EX-10.54_12055220_EX-10.54_Development Agreement",
+      "chunk_index": 10,
+      "original_length": 122688
+    }
+  },
+  {
+    "clause_id": "cuad_test_292",
+    "clause_text": "not include any Sekisui trade names, brand names, trademarks or logos (except that, if so required by applicable law, Qualigen shall include a statement that Sekisui is the distributor and/or that Sekisui is the importer). Sekisui shall not imprint or affix any of its (or any non-Qualigen person's) trade names, brand names, trademarks or logos to any Product or its packaging or labeling, and shall also cause its subdistributors not to do so. Sekisui shall not deface, cover, obscure, erase, alter or remove any Qualigen trade names, brand names, trademarks or logos (or patent notices) applied by Qualigen to the Products or to the Products' packaging or labeling, and shall also cause its subdistributors not to do so. 5\n\nSource: RITTER PHARMACEUTICALS INC, S-4/A, 3/13/2020\n\n\n\n\n\n4. Price, Shipment and Payment 4.1. Price. The price that Sekisui shall pay for the Products shall be established separately for the Reagent Kits and for the products other than Reagent Kits. The price that Sekisui shall pay for the Reagent Kits Products shall be based upon a formula intended to ensure that Sekisui will receive 90% of the total Available Margin for all Products during the first 12 months of this Agreement, 70% of the total Available Margin for all Products during months 13-24 of this Agreement, and 65% of the total Available Margin for all Products thereafter. Accordingly, the prices (established separately for the Reagent Kits and for the products other than Reagent Kits) to be paid by Se",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 24,
+      "contract_title": "RitterPharmaceuticalsInc_20200313_S-4A_EX-10.54_12055220_EX-10.54_Development Agreement",
+      "chunk_index": 11,
+      "original_length": 122688
+    }
+  },
+  {
+    "clause_id": "cuad_test_293",
+    "clause_text": "kisui for the Products shall be fixed (subject to a later lookback true up) for each respective prospective six month period in the manner set forth in Exhibit D. The initial prices Sekisui agrees to pay for the respective Products for the first such prospective \"six month period\" (in this instance actually a five month period: May-September 2016) shall be fixed (subject to a later lookback true up) in the manner set forth in Exhibit D. Thereafter such prices shall be revisited and recalculated (prospectively) every six months in the manner set forth in Exhibit D (i.e., for purposes of such calculations for establishing the new prospective prices for the reagent products, the applicable Net Revenue, COGS and Available Margin shall be the Net Revenue, COGS and Available Margin for the applicable historical 6-month period as defined in Exhibit D). In addition, on a semi-annual basis, such amount shall be reviewed based on the actual Net Revenue, COGS and Available Margin for the 6 months then ended. In the event that such review results in a difference from the intended share of Available Margin between the Parties as contemplated above, the Parties shall make a true up payment between them in order to compensate for such overpayment or shortfall, all as provided in Exhibit D. Any true-up payments shall be paid by the applicable Party within 30 days of the receipt of an invoice for the agreed to true up amount. Sekisui shall set the customer selling prices in good faith and in",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 24,
+      "contract_title": "RitterPharmaceuticalsInc_20200313_S-4A_EX-10.54_12055220_EX-10.54_Development Agreement",
+      "chunk_index": 12,
+      "original_length": 122688
+    }
+  },
+  {
+    "clause_id": "cuad_test_294",
+    "clause_text": "a commercially reasonable manner. 4.2. Shipment. The shipment of orders to Sekisui's customers shall be subject to the ability of Sekisui and Qualigen to obtain all required licenses and permits then in effect. Qualigen agrees (i) to assist Sekisui in obtaining such required licenses or permits, (ii) to comply with all Regulatory Approvals in, including all approvals and licenses necessary to import the Product into, the Applicable Markets, and (iii) to maintain the necessary records to comply with all Regulatory Approvals and other applicable rules and regulations in the Applicable Markets. Qualigen shall not be subject to unreasonable requests for assistance in applying for Regulatory Approvals such as providing original or proprietary documents, submitting free product samples or extensive translations. All Product ordered by Sekisui's customers shall be suitably packed for shipment and storage by Qualigen on behalf of Sekisui in accordance with Qualigen's standard commercial shipping practices. Each order shall be shipped as designated by Sekisui's customers in the order. If the carrier noted on the Sekisui customer's purchase order is not available, or if the purchase order does not designate a carrier, then Sekisui shall select the mode of shipment or, if Sekisui does not select the mode of shipment, Qualigen shall select the mode of shipment. Qualigen's responsibility shall be to deposit the ordered goods with the designated carrier within the shipping periods specifie",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 24,
+      "contract_title": "RitterPharmaceuticalsInc_20200313_S-4A_EX-10.54_12055220_EX-10.54_Development Agreement",
+      "chunk_index": 13,
+      "original_length": 122688
+    }
+  },
+  {
+    "clause_id": "cuad_test_295",
+    "clause_text": "d, and Qualigen shall not be liable for late delivery if so accomplished. 4.3. Delivery Terms. Qualigen shall deliver Products ordered by Sekisui, FCA (Incoterms 2010) Qualigen's facility in Carlsbad, California. Title to Products ordered by Sekisui shall pass to Sekisui upon delivery to the designated Sekisui storeroom at Qualigen's facility. While held at the Sekisui storeroom, any physical inventory loss will be the responsibility of Qualigen. Sekisui undertakes that all Sekisui inventory of Products shall be kept at such designated Sekisui storeroom at Qualigen's facility, until resale to Sekisui's customers. 6\n\nSource: RITTER PHARMACEUTICALS INC, S-4/A, 3/13/2020\n\n\n\n\n\n4.4. Sales Expense; Business Plan. For the avoidance of doubt, Sekisui shall be responsible for all sales and related sales expense except for Qualigen Retained Customers. The Business Plan sets forth Sekisui's plans for the sale and distribution of the Products, including target budget and resource allocations for the marketing and sales of the Products and estimated forecasts of sales to customers. Sekisui shall in good faith use commercially reasonable efforts, in conformance with good commercial practice and standards, government regulations and other applicable requirements, to promote, market and sell the Products, to execute the Business Plan and to achieve its objectives. Except as set forth in Section 3.2, such forecasts and budgets are intended for guidance purposes only and are not binding obliga",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 24,
+      "contract_title": "RitterPharmaceuticalsInc_20200313_S-4A_EX-10.54_12055220_EX-10.54_Development Agreement",
+      "chunk_index": 14,
+      "original_length": 122688
+    }
+  },
+  {
+    "clause_id": "cuad_test_820",
+    "clause_text": "EXHIBIT 10.15\n\n                      SPONSORSHIP AND DEVELOPMENT AGREEMENT\n\n      This Agreement is made as of August 6, 2004 (the \"Effective Date\") by and between TEKNIK DIGITAL ARTS INC., a Nevada corporation with offices at 7377 E. Doubletree Ranch Road, Suite 270, Scottsdale, Arizona 85258 (\"TDA\") and RICK SMITH ENTERPRISES (\"Smith\"), c/o GAYLORD SPORTS MANAGEMENT, 14646 N. Kierland Blvd., Suite 230, Scottsdale, Arizona 85254 Attention: Steve Loy.\n\n                                    RECITALS\n\n      TDA is in the business of developing and publishing interactive entertainment software products. TDA desires to have Smith assist in the development, endorsement and publicizing of TDA's golf instruction related software products.\n\n      THEREFORE, TDA and Smith agree as follows:\n\n1.    DEVELOPMENT, PRODUCTION, COMMERCIAL AND PUBLICITY SERVICES\n\n      1.1 General. Smith agrees to cooperate, consult with and aid TDA in connection with the development of TDA's \"Golf Instruction Related Product\" (hereinafter defined) and the advertising, marketing and publicity thereof. As used herein, the term \"Golf Instruction Related Product\" shall mean any interactive entertainment software product related to golf instruction which is produced and released during the \"Term\" (hereinafter defined in Section 5.1) and which may be published in multiple versions (e.g., versions for play on handheld mobile devices (including cell phones), for sale in any and all territories.\n\n2.    GRANT OF RIGHTS;",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 69,
+      "contract_title": "HALITRON,INC_03_01_2005-EX-10.15-SPONSORSHIP AND DEVELOPMENT AGREEMENT",
+      "chunk_index": 0,
+      "original_length": 30102
+    }
+  },
+  {
+    "clause_id": "cuad_test_821",
+    "clause_text": "COOPERATIONS\n\n      2.1 Publicity Rights. Smith hereby grants to TDA the following rights (the \"Rights\"):\n\n            (a) the right to use and reuse Smith's name, voice, likeness,       facsimile signature, personal statistics, biographical information and any       reproduction or simulation thereof (\"Smith's Likeness\") in TDA's Golf       Instruction Related Products and on packaging for TDA's Golf Instruction       Related Products in any fashion, said grant of rights being limited to the       world (the \"Contract Territory\")\";\n\n            (b) the right to use and reuse Smith's Likeness in TDA's general       internal, non-public corporate promotional materials (such as TDA's Annual       Report), corporate advertising and in other forms of publicity;\n\n            (c) the right to use and reuse Smith's Likeness in and in connection       with the marketing, advertising, promoting and publicizing of TDA's Golf       Instruction Related Products, by any and all means now known or hereafter       developed;\n\n            (d) the exclusive right to use and reuse the results and proceeds of       the in connection with TDA's Golf Instruction Related Products; and\n\n            (e) with Smith's prior reasonable approval, the right to license to       third parties any of the foregoing rights but only in connection with or       directly related to the marketing and sale of TDA's Golf Instruction       Related Products.\n\nSmith agrees to cooperate in good faith with TDA in conne",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 69,
+      "contract_title": "HALITRON,INC_03_01_2005-EX-10.15-SPONSORSHIP AND DEVELOPMENT AGREEMENT",
+      "chunk_index": 1,
+      "original_length": 30102
+    }
+  },
+  {
+    "clause_id": "cuad_test_822",
+    "clause_text": "ction with TDA's exercise of the Rights in accordance with the terms of this Agreement.\n\n      2.2 Limitations of License\n\n            (a) The Rights granted in Section 2.1 above will only be used by TDA       in connection with its Golf Instruction Related Products. TDA does not       have the right to use the Rights in any product whatsoever released before       or after the Term.\n\n            (b) TDA shall not utilize Smith's Likeness in a manner that would       constitute an endorsement of any product or service other than TDA's Golf       Instruction Related Products.\n\n                                       1\n\n      2.3 Smith as Featured Swing Instructor. TDA agrees that Smith will be the featured Instructor on all packaging of, and promotional materials related to, TDA's Golf Instruction Related Product.\n\n      2.4 No Obligation to Use. Except as set forth in Section 2.3 above, the payment to Smith of the sums required under this Agreement shall fully discharge all obligations of TDA to use Smith's Likeness under this Agreement.\n\n      2.5 Approvals. TDA agrees that no use of Smith's Likeness in connection with advertisements, promotions and other related/similar materials (specifically excluding, however, TDA's Golf Instruction Related Products) will be made hereunder unless and until the same has been approved by Smith in writing. Smith agrees that any material, advertising or otherwise, submitted for approval as provided herein may be deemed by TDA to have been app",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 69,
+      "contract_title": "HALITRON,INC_03_01_2005-EX-10.15-SPONSORSHIP AND DEVELOPMENT AGREEMENT",
+      "chunk_index": 2,
+      "original_length": 30102
+    }
+  },
+  {
+    "clause_id": "cuad_test_823",
+    "clause_text": "roved hereunder if the same is not disapproved in writing within fourteen (14) days after receipt thereof. Smith agrees that any material submitted hereunder will not be unreasonably disapproved and, if it is disapproved, that TDA will be advised of\n\n\n\n\n\nthe specified grounds therefore. TDA agrees to protect, indemnify and save harmless Smith and Smith's agents, or either of them, from and against any and all expenses, damages, claims, suits, actions, judgments and costs whatsoever, arising out of, or in any way connected with, any advertising material furnished by, or on behalf of, TDA.\n\n3.    EXCLUSIVITY\n\n      3.1 Exclusivity Period. During the Term (the \"Exclusivity Period\"), Smith hereby represents, warrants and agrees that he will not: (i) render any services in commercials or advertisements on behalf of any computer game or videogame sports software product or service, or (ii) authorize the use of Smith's Likeness in connection with any computer game or videogame golf instruction related sports software product or service. These exclusivity obligations will not limit Smith's right to appear in any of the entertainment fields or in the entertainment portion of any television, film or video program; provided, however, that Smith may not appear in, or provide services in connection with, advertisements for any computer game or videogame sports products. Notwithstanding anything herein to the contrary, this Section 3.1 is specifically subject to the provisions of Section 2",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 69,
+      "contract_title": "HALITRON,INC_03_01_2005-EX-10.15-SPONSORSHIP AND DEVELOPMENT AGREEMENT",
+      "chunk_index": 3,
+      "original_length": 30102
+    }
+  },
+  {
+    "clause_id": "cuad_test_824",
+    "clause_text": ".2 above. Smith's obligations set forth in this Section 3.1, and as limited by Section 2.2, will be referred to elsewhere in this Agreement as the \"Exclusivity Obligations\". Notwithstanding anything herein to the contrary, TDA explicitly agrees that nothing herein shall preclude Smith from participating in, or in any way limit Smith's participation in, any current or future PGA PLAYERS and/or PGA TOUR group licensing arrangements.\n\n4.    COMPENSATION\n\n      4.1 Products. TDA will provide to Smith, free of all costs whatsoever (including without limitation, taxes, duties, shipping and/or handling fees) (a) fifty (50) copies each of TDA's \"Phil Smith Golf instruction related\" game mobile, handheld devices promptly after TDA's release thereof and (b) fifty (50) copies of any other TDA products selected by Smith.\n\n      4.2 Compensation for Rights and Services. TDA agrees to pay Smith, as a consideration for the Rights and Services.\n\n      1)    25,000 Restricted common shares of TDA,\n\n            a.    As of the date of this agreement, Company has sold stock at                   $2.50/share.\n\n            b.    Par Value is $.0001 per share.\n\n      2)    25% royalty of net TDA net sales price.\n\n      3)    Option to convert annual royalties to TDA common stock at a $10 of             stock for every $1 of Royalty converted.\n\n            a.    TDA stock conversion price based on the previous six month                   average daily price\n\n            b.    Option is limited to 50",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 69,
+      "contract_title": "HALITRON,INC_03_01_2005-EX-10.15-SPONSORSHIP AND DEVELOPMENT AGREEMENT",
+      "chunk_index": 4,
+      "original_length": 30102
+    }
+  },
+  {
+    "clause_id": "cuad_test_825",
+    "clause_text": "% of TDA outstanding stock and if the                   option is exercised, it must be exercised when the agreement     &sbsp;             is in effect.\n\nAll payments due under this Agreement shall be made in the form of a check drawn to the order of \"Rick Smith\" and delivered to Smith's agent at the following address: Gaylord Sports Management, l4646 N. Kierland Blvd., Suite 230, Scottsdale, Arizona 85254, Attn: Steve Loy. Payments shall be made 15 days from the end of each\n\n                                       2\n\nquarter. Smith's net payment after any such charges or deductions shall equal the amount set forth above. Past due payments hereunder shall bear interest at the rate of (i) one and one-half percent (1-1/2%) per month, or (ii) the maximum interest rate permissible under law, whichever is less.\n\n      4.3 Expenses. First-class round-trip air transportation, hotel room meal expenses, local limousine service and miscellaneous expenses (e.g., telephone and overnight courier charges) incurred by Smith and a guest designated by Smith will be paid by TDA or reimbursed by TDA to Smith where necessary in the performance of Smith's Services under this Agreement; provided, however, that such expenses are required and reasonable for a celebrity of Smith's stature.\n\n5.    AUDIT\n\n      5.1 Licensee shall keep accurate books of account and records at its principal place of business covering all transactions relating to the License granted herein. Smith shall have the right to e",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 69,
+      "contract_title": "HALITRON,INC_03_01_2005-EX-10.15-SPONSORSHIP AND DEVELOPMENT AGREEMENT",
+      "chunk_index": 5,
+      "original_length": 30102
+    }
+  },
+  {
+    "clause_id": "cuad_test_826",
+    "clause_text": "ngage an independent accounting firm to examine the Licensee's sales information and all other books and records necessary to establish the accuracy and timeliness of the royalty statements required hereunder. Such examination shall be at the premises of Licensee on ten (10) working days written notice and during normal business hours. The information provided to Smith by the accounting firm will be the net sales and the application of the appropriate royalty rate to calculate royalties due. The accounting firm shall be required to take reasonable steps to hold all Licensee information confidential. Details of the review and all work papers and related supporting data pertaining to the review will be held confidential by the accounting firm and will not be shown, divulged, or delivered directly or indirectly to Smith or any third party. The accounting firm shall be bound by a non-disclosure agreement in the form to be provided by Licensee to ensure compliance with this paragraph. The examination may be conducted not more than\n\n\n\n\n\nonce a year. If it is determined that Licensee has made any Royalty underpayment which is greater than five percent (5%) for any Royalty Period, the Licensee shall reimburse Smith for the costs and expenses of such audit.\n\n      5.2 Upon request by Smith, but not more than once each year, Licensee shall, at its own cost, furnish to Smith within thirty (30) days after such request a detailed statement, prepared by Licensee's Chief Financial Officer,",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 69,
+      "contract_title": "HALITRON,INC_03_01_2005-EX-10.15-SPONSORSHIP AND DEVELOPMENT AGREEMENT",
+      "chunk_index": 6,
+      "original_length": 30102
+    }
+  },
+  {
+    "clause_id": "cuad_test_827",
+    "clause_text": "setting forth the number of Products manufactured from the later of the commencement of this Agreement or the date of any previous such statement up to and including the date of Smith's request therefore and also setting forth the pricing information for all Products (including the number and description of the Products) shipped, distributed and sold by Licensee during the aforementioned time period.\n\n      5.3 All books of account and records of Licensee covering all transactions relating to the Licensee shall be retained by the Licensee until at least two (2) years after the expiration or termination of the Term for possible inspection by Smith.\n\n6.    TERM\n\n      6.1 Term. The term of this Agreement (the \"Term\") shall commence on the Effective Date and terminate at the end of the Exclusivity Period (i.e., a three (3) year period commencing on the Effective Date).\n\n      6.2 Post-Term Sales. Upon expiration of this Agreement, TDA shall cease all uses of the Rights and/or Smith's Likeness with respect to advertising, endorsing and/or promoting TDA, but TDA shall be free to continue to distribute and sell its Golf Instruction Related Products which incorporate Smith's Likeness for up to 180 days after the expiration of the Term (although TDA may not use the Rights or Smith's Likeness to promote or advertise TDA or any of TDA's non-Golf Instruction Related Products when selling the Golf Instruction Related Products, nor can TDA highlight Smith's Likeness in its packaging or sa",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 69,
+      "contract_title": "HALITRON,INC_03_01_2005-EX-10.15-SPONSORSHIP AND DEVELOPMENT AGREEMENT",
+      "chunk_index": 7,
+      "original_length": 30102
+    }
+  },
+  {
+    "clause_id": "cuad_test_828",
+    "clause_text": "les efforts); provided, however, that TDA shall have no such right of post-Term sales unless TDA is not in default of any of its obligations hereunder as of the date of expiration or termination.\n\n7.    REPRESENTATIONS, WARRANTIES AND COVENANTS\n\n      7.1 Representations and Warranties.\n\n            (a) Smith represents and warrants that:\n\n                  (i) Smith has full right to enter into this Agreement and to             perform all of his obligations hereunder without, to his knowledge,             violating the legal or equitable rights of any person, firm or             entity and that TDA shall not be under any obligation for the             payment of any\n\n                                       3\n\n            commissions or fees to any person, firm or entity on account of this             Agreement, other than advances, compensation, royalties and expenses             expressly payable to Smith by TDA under this Agreement;\n\n                  (ii) Smith will perform the Services in a professional and             workmanlike manner, to the extent of Smith's professional abilities.\n\n            (b) TDA represents and warrants that:\n\n                  (i) TDA has full right to enter into this Agreement and to             perform all of its obligations hereunder without, to its knowledge,             violating the legal or equitable rights of any person, firm or             entity and that Smith shall not be under any obligation for the             payment of any comm",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 69,
+      "contract_title": "HALITRON,INC_03_01_2005-EX-10.15-SPONSORSHIP AND DEVELOPMENT AGREEMENT",
+      "chunk_index": 8,
+      "original_length": 30102
+    }
+  },
+  {
+    "clause_id": "cuad_test_829",
+    "clause_text": "issions or fees to any person, firm or entity             related to or connected with TDA on account of this Agreement.\n\n            (c) Notwithstanding anything herein to the contrary, TDA agrees that       nothing contained herein shall be construed to convey to TDA any rights to       use the trademarks, logos or uniform of the PGA TOUR (\"PGA\"), any other       professional or amateur golf instruction related association (including       any member players of such association) in conjunction with the rights       granted hereunder. All rights to the use of such trademarks, logos or team       identification must be acquired from the PGA or any other appropriate       rights holder.\n\n      7.2 Further Assurances and Execution of Documents. Smith will, if requested and reasonable, furnish affidavits and other appropriate documentation that may be required, in TDA's reasonable judgment and at TDA's expense, to comply with any applicable governmental or other regulations, broadcast clearance procedures, or sports/entertainment industry guidelines relating to product endorsement. Furthermore, Smith hereby agrees to execute any and all documents which are required by any guild or union having jurisdiction over any of the services to be provided by Smith under this Agreement.\n\n      7.3 Confidential Information and Non-Disparagement. Neither party will disclose or use any confidential or proprietary information that such party obtains from or about the other or its products. Bot",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 69,
+      "contract_title": "HALITRON,INC_03_01_2005-EX-10.15-SPONSORSHIP AND DEVELOPMENT AGREEMENT",
+      "chunk_index": 9,
+      "original_length": 30102
+    }
+  },
+  {
+    "clause_id": "cuad_test_830",
+    "clause_text": "h parties agree that the existence and results of any arbitration held pursuant to this Agreement will be treated confidentially. Smith will not authorize or release advertising matter or publicity nor give interviews which make reference to the details of the material terms of this Agreement, without TDA's prior written approval, although Smith may, during interviews, respond, discuss and comment in a non-disparaging manner that Smith is associated with TDA and its Golf Instruction Related Products.\n\n\n\n\n\n8.    OWNERSHIP OF PROPRIETARY RIGHTS\n\n      8.1 All right, title and interest in and to TDA's Golf Instruction Related Products shall be and remain the absolute property of TDA forever (it being understood that after the Term TDA may continue to manufacture, promote, sell and/or distribute its other golf instruction related interactive entertainment sports products which are separate and distinct from the Golf Instruction Related Products incorporating Smith's Likeness on the packaging without being subject to any of the limitations or restriction herein, provided that the Rights are not (directly or indirectly) utilized by or incorporated in such other golf instruction related interactive sports products. All right, title and interest in and to the Results and Proceeds and to the Advertising Materials (as defined below) shall be and remain the absolute property of TDA forever (but which may only be used during the Term and, subject to the limitations and conditions set for",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 69,
+      "contract_title": "HALITRON,INC_03_01_2005-EX-10.15-SPONSORSHIP AND DEVELOPMENT AGREEMENT",
+      "chunk_index": 10,
+      "original_length": 30102
+    }
+  },
+  {
+    "clause_id": "cuad_test_831",
+    "clause_text": "th in this Agreement, thereafter). Without limiting the foregoing, TDA shall, during the Term (and, Subject to the limitations and conditions on the Rights as set forth in this Agreement, thereafter) have the full and complete right to revise, telecast, broadcast, use, distribute, reproduce, record, publish, print, license, copyright and exhibit the contents of any Results and Proceeds, the Golf Instruction Related Products and any Advertising Materials and any versions or revisions thereof and, in TDA's sole discretion, the Results and Proceeds, the Golf Instruction Related Products and Advertising Materials may be make by any process, instrumentation or device now known or hereafter developed and may be made or adapted for use in any and all media now known or hereafter developed (although it is acknowledged and agreed by TDA that multi-media usage (except, of course, as incorporated into TDA's Golf Instruction Related Products) shall be strictly limited to advertising) provided that any and all such uses are directly related to the marketing, development and sale of TDA's Golf Instruction Related Products. Smith further acknowledges that TDA may adapt and use, and protect by\n\n                                       4\n\nany means including registration with the appropriate authorities, a trademark or trade name incorporating Smith's Likeness, and that Smith shall, until after the Term, have no right, title or interest in or to any such trademark, trade name or related goodwil",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 69,
+      "contract_title": "HALITRON,INC_03_01_2005-EX-10.15-SPONSORSHIP AND DEVELOPMENT AGREEMENT",
+      "chunk_index": 11,
+      "original_length": 30102
+    }
+  },
+  {
+    "clause_id": "cuad_test_832",
+    "clause_text": "l. As used in this Agreement, \"Advertising Material\" means any commercials, print materials, copy, advertising, promotional and publicity materials published under this Agreement which include or make reference to Smith's Likeness and all elements thereof.\n\n      8.2 Notwithstanding anything herein to the contrary, TDA agrees not to remove, airbrush or otherwise alter the trademarks and logos of Smith's equipment manufacturer (currently Mission) from the packaging of TDA's Golf Instruction Related Products and/or the Advertising Materials, provided that, upon TDA's written request, Smith secures for TDA, at no cost to TDA, all necessary written permissions or grants of rights from any such equipment manufacturer or third party.\n\n9.    INDEMNITY\n\n      9.1 By TDA. TDA shall indemnify and hold harmless Smith, Smith's agent, and Smith's heirs, executors and legal representatives from and against any and all damages, costs, judgments, penalties and expenses of any kind (including reasonable legal fees and disbursements) which may be obtained against, imposed upon or suffered by any of them as a result of (a) any claims or representations made by Smith in any Advertising Materials produced or used by TDA hereunder, (b) TDA's default, breach, negligence, errors and/or misconduct hereunder, and/or (c) any claim arising from any third party's use or association with TDA;s products.\n\n10.   GENERAL\n\n      10.1 Taxes. Smith represents and warrants that, in performing its obligations und",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 69,
+      "contract_title": "HALITRON,INC_03_01_2005-EX-10.15-SPONSORSHIP AND DEVELOPMENT AGREEMENT",
+      "chunk_index": 12,
+      "original_length": 30102
+    }
+  },
+  {
+    "clause_id": "cuad_test_833",
+    "clause_text": "er this Agreement, Smith does so as an independent contractor and, without limiting the foregoing, Smith assumes exclusive responsibility for the collection and payments of all employer and employee contributions and taxes under all applicable laws now in effect or hereafter enacted and Smith further agrees to file any returns or reports necessary in connection therewith. TDA shall have the right to deduct from any amounts payable hereunder such portion thereof as are required to be deducted under applicable statute, regulation, treaty or other law, and Smith shall promptly execute and deliver to TDA such forms and other documents as may be required in connection therewith. Notwithstanding anything herein to the contrary, it is agreed and acknowledged that TDA remains liable for the payment of all pension and health welfare contributions required of any guild or labor organization (i.e., SAG, AFTRA, etc.).\n\n      10.2 Notices. All notices and statements hereunder required to be given to TDA shall be sent to TDA at its address stated at the beginning of this Agreement, to the attention of the General Counsel, and all notices to Smith shall be sent to Smith at the address stated at the beginning of this Agreement, unless either party notifies the other party in writing if a change of address in accordance with the provisions of this Section. Notices are deemed to be received by the addressee of the notice on the earlier or the date the notice is actually delivered to the addres",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 69,
+      "contract_title": "HALITRON,INC_03_01_2005-EX-10.15-SPONSORSHIP AND DEVELOPMENT AGREEMENT",
+      "chunk_index": 13,
+      "original_length": 30102
+    }
+  },
+  {
+    "clause_id": "cuad_test_834",
+    "clause_text": "see and: (i) three (3) days after the notice is sent by certified mail, postage prepaid, return receipt requested; (ii) the next business day after the notice is sent by confirmed fax transmission; or (iii) on the date of guaranteed delivery if the notice is sent by recognized national or international express courier.\n\n      10.3 Right of Offset. Notwithstanding any provision contained in this Agreement, neither party will be prohibited from exercising any right of offset that may be available at law.\n\n\n\n\n\n      10.4 Governing Law. This Agreement will be deemed entered into in Arizona and will be governed by and interpreted in accordance with the internal substantive laws of the State of Arizona without reference to conflicts of law provisions.\n\n      10.5 Entire Agreement. This Agreement constitutes the entire understanding between the parties hereto with respect to the subject matter hereof, and all prior agreements and understandings, whether oral or written, are hereby superseded in their entirety. No waiver, modification or addition to this Agreement shall be valid unless in writing and signed by the party sought to be charged therewith.\n\n      10.6 Assignment. This Agreement may be assigned by Smith and TDA with the other party's prior written approval. Except with Smith's prior written approval, this Agreement may not be assigned by TDA: (i) in connection with a merger, a sale of all or substantially all of the assets of TDA or other similar corporate reorganization,",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 69,
+      "contract_title": "HALITRON,INC_03_01_2005-EX-10.15-SPONSORSHIP AND DEVELOPMENT AGREEMENT",
+      "chunk_index": 14,
+      "original_length": 30102
+    }
+  },
+  {
+    "clause_id": "cuad_test_958",
+    "clause_text": "Exhibit 10.16\n\nEL POLLO LOCO® FRANCHISE DEVELOPMENT AGREEMENT\n\nDated: ____________________\n\nTerritory: Developer:\n\n(Disclosure Document Control No. 032619)\n\nTABLE OF CONTENTS 1.DEVELOPMENT RIGHTS IN TERRITORY. 4 2.LIMITATION ON DEVELOPMENT RIGHTS. 5 3.DEVELOPMENT FEE. 9 4.TERM OF DEVELOPMENT AGREEMENT. 10 5.TERRITORY CONFLICTS. 10 6.PROPRIETARY RIGHTS OF EL POLLO LOCO. 11 7.INSURANCE AND INDEMNIFICATION. 11 8.TRANSFER OF RIGHTS. 13 9.ACKNOWLEDGMENT OF SELECTED TERMS AND PROVISIONS OF THE FRANCHISE AGREEMENT. 14 10.TERMINATION BY DEVELOPER; EXPIRATION DATE. 14 11.EVENTS OF DEFAULT. 15 12.EFFECT OF TERMINATION. 16 13.NON-WAIVER. 17 14.INDEPENDENT CONTRACTOR AND INDEMNIFICATION. 17 15.ENTIRE AGREEMENT. 17 16.DISPUTE RESOLUTION 18 17.SEVERABILITY. 19 18.APPLICABLE LAW; CHOICE OF FORUM; WAIVER OF JURY TRIAL. 19 19.DOCUMENT INTERPRETATION. 19 20.COVENANT NOT TO COMPETE. 20 21.NOTICES. 21 22.SECTION HEADINGS. 21 23.ACKNOWLEDGMENTS. 21 24.COUNTERPARTS. 22 Source: EL POLLO LOCO HOLDINGS, INC., 10-K, 3/6/2020\n\n\n\n\n\nEXHIBITS EXHIBIT \"A\" TO DEVELOPMENT AGREEMENT - TERRITORY23 EXHIBIT \"B\" TO DEVELOPMENT AGREEMENT - DEVELOPMENT SCHEDULE24 EXHIBIT \"C\" TO DEVELOPMENT AGREEMENT - EXISTING EL POLLO LOCO® RESTAURANTS IN THE TERRITORY 25\n\nEL POLLO LOCO® FRANCHISE DEVELOPMENT AGREEMENT (Non-exclusive/Exclusive)\n\nTHIS FRANCHISE DEVELOPMENT AGREEMENT (\"Agreement\") dated for identification purposes only as of _____________________, is made and entered into by and between EL POLLO LOCO, INC., a Delawa",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 79,
+      "contract_title": "ElPolloLocoHoldingsInc_20200306_10-K_EX-10.16_12041700_EX-10.16_Development Agreement",
+      "chunk_index": 0,
+      "original_length": 60618
+    }
+  },
+  {
+    "clause_id": "cuad_test_959",
+    "clause_text": "re corporation, with its principal place of business at 3535 Harbor Blvd, Suite 100, Costa Mesa, California 92626 (referred to herein as \"El Pollo Loco\" or \"Franchisor\") and __________________an individual, with its principal place of business at _____________________________________ (\"Developer\").\n\nRecitals.\n\nA.Franchisor owns certain proprietary and other property rights and interests in and to the \"El Pollo Loco®\" trademark and service mark, and such other trademarks, service marks, logo types, insignias, trade dress designs and commercial symbols as Franchisor may from time to time authorize or direct Developer to use in connection with the operation of a(n) \"El Pollo Loco®\" restaurant (the \"El Pollo Loco® Marks\"). Franchisor has a distinctive plan for the operation of retail outlets for the sale of fire-grilled food items and related products, which plan includes but is not limited to the El Pollo Loco® Marks and the Operations Manual (the \"Manual\"), policies, standards, procedures, employee uniforms, signs, menu boards and related items, and the reputation and goodwill of the El Pollo Loco® chain of restaurants (collectively, the \"El Pollo Loco® System\").\n\nB.Developer represents that it is experienced in and has independent knowledge of the nature and specifics of the restaurant business. Developer represents that in entering into this Agreement it has relied solely on its personal knowledge and has not relied on any representations of Franchisor or any of its officers,",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 79,
+      "contract_title": "ElPolloLocoHoldingsInc_20200306_10-K_EX-10.16_12041700_EX-10.16_Development Agreement",
+      "chunk_index": 1,
+      "original_length": 60618
+    }
+  },
+  {
+    "clause_id": "cuad_test_960",
+    "clause_text": "directors, employees or agents, except those representations contained in any legally required Franchise Disclosure Document delivered to Developer.\n\nC.  Developer desires to obtain development rights for multiple restaurants under the El Pollo Loco® System (each, an \"El Pollo Loco® Restaurant\") from Franchisor within a specified geographical (the \"Territory\") specified in Exhibit \"A\" attached hereto and made a part hereof (or if single unit, replace with \"Developer desires to obtain development rights for a single restaurant under the El Pollo Loco® System (each, an \"El Pollo Loco® Restaurant\") from Franchisor within a specified address (the \"Territory\") specified in Exhibit \"A\" attached hereto and made a part hereof.\")\n\nD.Franchisor is willing to grant the (non-exclusive/exclusive) right to develop and open El Pollo Loco® Restaurant(s) within the Territory referenced in Exhibit \"A.\"\n\nNOW, THEREFORE, in consideration of the mutual covenants and obligations herein contained, the parties hereto agree as follows:\n\n1.Development Rights in Territory.\n\n1.1. Franchisor hereby grants to Developer, subject to the terms and conditions of this Agreement (if Section 2.20 is applicable add \", and specifically Section 2.20 hereof,\") and as long as Developer shall not be in default of this Agreement or any other development, franchise or other agreement between Developer and Franchisor, (non-exclusive/exclusive) development rights to establish and operate ____ franchised restaurant(s), an",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 79,
+      "contract_title": "ElPolloLocoHoldingsInc_20200306_10-K_EX-10.16_12041700_EX-10.16_Development Agreement",
+      "chunk_index": 2,
+      "original_length": 60618
+    }
+  },
+  {
+    "clause_id": "cuad_test_961",
+    "clause_text": "d to use the El Pollo Loco® System solely in connection therewith, at specific locations to be designated in separate Franchise Agreement(s) (the \"Franchise Agreements\"). (If exclusive agreement, add \"Developer expressly acknowledges that the exclusive rights granted herein apply only to the right to develop new restaurants in the Territory, and no exclusive territory or radius protection for the term of any Franchise Agreement is granted herein and any such protection shall be set forth in the particular Franchise Agreement to be signed.\") The Franchise Agreements (and all ancillary documents attached as Exhibits to the Franchise Agreement, including the Personal Guarantee) executed in accordance with this Agreement shall be in the form currently in use by Franchisor at the time of execution of the Franchise Agreement and shall be executed individually by each person, partner, member or shareholder.\n\n1.2. (Only applies if exclusive Agreement. Delete if non-exclusive Agreement.) Except as otherwise provided in this Agreement and subject to the terms and conditions of Section 2.20 hereof, after the date of this\n\nSource: EL POLLO LOCO HOLDINGS, INC., 10-K, 3/6/2020\n\n\n\n\n\nAgreement and during the term of this Agreement, and so long as Developer is in compliance with its obligations under this Agreement, Franchisor shall neither, without Developer's prior written consent: (i) grant development rights to anyone else with respect to the Territory or any part of the Territory; nor (i",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 79,
+      "contract_title": "ElPolloLocoHoldingsInc_20200306_10-K_EX-10.16_12041700_EX-10.16_Development Agreement",
+      "chunk_index": 3,
+      "original_length": 60618
+    }
+  },
+  {
+    "clause_id": "cuad_test_962",
+    "clause_text": "i) establish or franchise any person to establish an El Pollo Loco restaurant under the Marks and System at any location within the Territory. Franchisor expressly retains all other rights and may, among other things, on any terms and conditions Franchisor deems advisable, and without granting Developer any rights therein:\n\na. Establish and operate or franchise others to establish and operate an El Pollo Loco restaurant located outside of the Territory;\n\nb. Sell the same or similar products (whether or not using the Marks), as will be sold by Developer in a developed El Pollo Loco restaurant, to customers at any retail location (whether within or outside of the Territory), through any method or channel of distribution, including, without limitation, at retail locations such as grocery or convenience stores and via the Internet, telemarketing and direct marketing means, through other non-El-Pollo Loco restaurants having the same or similar menu items, or through any other distribution channel;\n\nc. Establish and operate or franchise others to establish and operate restaurants (not using the Marks) having the same or similar menu items whether within or outside of the Territory; and\n\nd. Any continued operation by Franchisor, or the allowance of any continued operation by a franchisee of Franchisor, of an El Pollo Loco restaurant within the Territory which was opened on or before the date of this Agreement shall not be considered to constitute a breach of this Agreement.\n\n1.3. (O",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 79,
+      "contract_title": "ElPolloLocoHoldingsInc_20200306_10-K_EX-10.16_12041700_EX-10.16_Development Agreement",
+      "chunk_index": 4,
+      "original_length": 60618
+    }
+  },
+  {
+    "clause_id": "cuad_test_963",
+    "clause_text": "nly applies to multi-unit Development Agreement - delete if single-unit Development Agreement). Prior to or concurrent with the execution of this Agreement, Developer shall meet with Franchisor's development representatives and prepare a market development plan for the units to be constructed and opened by Developer in the Territory (identifying specific key areas, key intersections and trade areas in the Territory) and all development pursuant to this Agreement shall be in accordance with this plan (the \"Market Plan\"). The Market Plan shall include proposed areas where sites may be located, ranking and prioritization of site locations and other information customarily used by market planners in the restaurant industry. Developer and Franchisor shall jointly approve the Market Plan.\n\n2. Limitation on Development Rights.\n\n2.1. Developer must submit one or more site(s) for approval, enter into binding leases or purchase agreements and open to the public the number of El Pollo Loco® Restaurant(s) on such approved sites each calendar year as required on the Development Schedule, all as set forth on Exhibit \"B\" attached hereto and made a part hereof.\n\n2.2. For purposes of the Development Schedule in Exhibit \"B\", no credit will be given for the development of El Pollo Loco® Restaurant(s) outside the Territory, regardless of the fact that Developer may, upon proper application, obtain from Franchisor an El Pollo Loco® Franchise Agreement (\"Franchise Agreement\") for any such developm",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 79,
+      "contract_title": "ElPolloLocoHoldingsInc_20200306_10-K_EX-10.16_12041700_EX-10.16_Development Agreement",
+      "chunk_index": 5,
+      "original_length": 60618
+    }
+  },
+  {
+    "clause_id": "cuad_test_964",
+    "clause_text": "ent.\n\n2.3. Although this Agreement affords the Developer the right to develop and open El Pollo Loco® restaurant(s) within the Territory, as set forth on Exhibit \"A\", all Restaurant(s) developed under this Agreement must be duly licensed through individual Franchise Agreement(s). Developer will execute El Pollo Loco's then standard Franchise Agreement in use at the time of execution for each restaurant developed under this Agreement, and agrees to pay Franchisor the current fees, royalties and other required payments in accordance with the Franchise Agreement and Franchise Disclosure Document then in effect. Execution of the appropriate Franchise Agreement and payment of the initial franchise fee and/or any other required fees must be accomplished prior to the commencement of construction at any site.\n\n2.4. Developer must satisfy all Franchisor's financial and operational criteria then in effect and in addition, if Developer is also a Franchisee of one or more El Pollo Loco Restaurants, Franchisee must also be in good standing with Franchisor and satisfy all Franchisor's financial and operational criteria then in effect prior to El Pollo Loco's execution of each standard Franchise Agreement issued pursuant to this Agreement. Developer shall provide Franchisor with current information pertaining to Developer's financial condition and the financial condition of the majority and managing members/partners/shareholders of Developer at any time upon El Pollo Loco's request and in n",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 79,
+      "contract_title": "ElPolloLocoHoldingsInc_20200306_10-K_EX-10.16_12041700_EX-10.16_Development Agreement",
+      "chunk_index": 6,
+      "original_length": 60618
+    }
+  },
+  {
+    "clause_id": "cuad_test_965",
+    "clause_text": "o event less than once annually. Developer acknowledges that, among other things, it will be\n\nSource: EL POLLO LOCO HOLDINGS, INC., 10-K, 3/6/2020\n\n\n\n\n\nrequired to submit annual financial statements of Developer and personal financial statements of each of its principal owners and Managing Members to be eligible for financial approval by El Pollo Loco. In the event any of the majority owners of Developer shall also be the Managing Members and/or majority owners of any other entity which is a franchisee of El Pollo Loco, then each such franchisee entity must be operationally and financially approved by Franchisor before approval for expansion will be granted to any one franchisee entity. \"Managing Members\" shall be any individuals who are designated as the primary decision makers or general managers of the franchisee entity and those individuals who (individually or collectively) own at least 51% interest in the franchisee entity.\n\n2.5. Developer shall use its best efforts to retain qualified real estate professionals (including licensed brokers) to locate proposed sites for the El Pollo Loco® Restaurant(s). Developer shall submit proposed sites for each El Pollo Loco® Restaurant unit to be developed under this Agreement for acceptance by Franchisor's Real Estate Site Approval Committee (\"RESAC\"), together with such site information as may be reasonably required by Franchisor to evaluate the proposed site, no later than the dates set forth in Exhibit \"B\" as RESAC Submittal Dat",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 79,
+      "contract_title": "ElPolloLocoHoldingsInc_20200306_10-K_EX-10.16_12041700_EX-10.16_Development Agreement",
+      "chunk_index": 7,
+      "original_length": 60618
+    }
+  },
+  {
+    "clause_id": "cuad_test_966",
+    "clause_text": "es, the first of which shall be approximately ninety (90) days after execution of this Agreement. Should the site be accepted by RESAC, it will be referred to as the \"Approved Site\". Such acceptance will expire one (1) year from the RESAC approval date. Franchisor may require, as a condition to its approval of a site, a \"Market Study\", which shall include a site description and analysis, traffic and other demographic information and an analysis of the impact of the proposed site on other company owned and franchised El Pollo Loco restaurants surrounding or within the vicinity of such proposed site all in such format as the Franchisor may require. All such analyses, information and studies shall be prepared at the sole cost and expense of Developer.\n\n2.6. Franchisor shall send representatives to evaluate proposed site(s) for each El Pollo Loco® Restaurant to be developed under this Agreement, and Franchisor will do so at its own expense for the first two (2) proposed sites for each El Pollo Loco® Restaurant. If Developer proposes, and Franchisor evaluates, more than two (2) sites for each El Pollo Loco® Restaurant, then Developer shall reimburse Franchisor for the reasonable costs and expenses incurred by Franchisor's representatives in connection with the evaluation of such additional proposed site(s), including, without limitation, the costs of lodging, travel, meals and wages.\n\n2.7. Provided there exists no default by Developer under this Agreement or any other development,",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 79,
+      "contract_title": "ElPolloLocoHoldingsInc_20200306_10-K_EX-10.16_12041700_EX-10.16_Development Agreement",
+      "chunk_index": 8,
+      "original_length": 60618
+    }
+  },
+  {
+    "clause_id": "cuad_test_967",
+    "clause_text": "franchise or other agreement between Franchisor and Developer, Franchisor shall evaluate each site proposed for which Developer has provided all necessary evaluation information, and shall promptly after receipt of Developer's proposal, send to Developer written notice of acceptance or non-acceptance of the sit\n\n2.8. If RESAC determines through its evaluation of the proposed site that the proposed site may impact sales at any company-owned El Pollo Loco® Restaurant, Franchisor has the sole and absolute right to accept or reject the proposed site, without any obligation to discuss a possible resolution with Developer. However, Franchisor may elect to discuss with Developer a possible resolution with regard to the proposed site; however, if such an agreement cannot be reached, Franchisor has the sole and absolute right to reject the proposed site. If RESAC determines through its evaluation of the proposed site that the proposed site may potentially impact sales at any existing El Pollo Loco® franchisee's restaurant, Franchisor shall notify Developer of the existing El Pollo Loco® franchisees' location(s) and contact information. If nevertheless Developer wishes to try to proceed with that site, Developer must obtain a written waiver from those existing El Pollo Loco® franchisees of any claims they might have against Developer and Franchisor with respect to the proposed new El Pollo Loco® Restaurant. Such waiver, if obtained, must be submitted along with the evaluation informat",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 79,
+      "contract_title": "ElPolloLocoHoldingsInc_20200306_10-K_EX-10.16_12041700_EX-10.16_Development Agreement",
+      "chunk_index": 9,
+      "original_length": 60618
+    }
+  },
+  {
+    "clause_id": "cuad_test_968",
+    "clause_text": "ion required pursuant to this Section.\n\n2.9. No later than the Site Commitment Dates set forth in Exhibit \"B\", Developer shall submit for the Approved Site to Franchisor for its review and approval of:\n\na. A fully negotiated but unexecuted lease, which may only subject to obtaining necessary governmental permits. The unexecuted form of the lease must be submitted to Franchisor to review for the required terms and conditions listed in Sections 2.9, 2.10, 2.11 and 2.12 below prior to full execution of the lease. Franchisor will promptly notify Developer upon their approval of the inclusion of such required terms and conditions. Developer will promptly then provide a final executed copy of the lease to Franchisor; or\n\nb. A purchase agreement. Should Developer purchase the site using another entity other than the franchise entity, Developer must then enter into a lease with the Franchise entity as the lessee and the purchasing entity as the lessor and must comply with all the requirements of this Sections 2.9, 2.10, 2.11 and 2.12 below).\n\n2.10. Any lease to be entered into by Developer shall include the terms and conditions set forth below and in a form approved by Franchisor:\n\nSource: EL POLLO LOCO HOLDINGS, INC., 10-K, 3/6/2020\n\n\n\n\n\na. The tenant entity on the lease must match the franchise entity on the franchise agreement; and\n\nb. The term (with renewal options) of the lease must match at least the initial term of the franchise agreement; and\n\nc. The landlord consents to your",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 79,
+      "contract_title": "ElPolloLocoHoldingsInc_20200306_10-K_EX-10.16_12041700_EX-10.16_Development Agreement",
+      "chunk_index": 10,
+      "original_length": 60618
+    }
+  },
+  {
+    "clause_id": "cuad_test_969",
+    "clause_text": "use of the premises as an El Pollo Loco® restaurant which will be open during the required days and hours set out in the Operations Manual.\n\n2.11. Franchisor shall have no liability under any lease or purchase agreement for any El Pollo Loco® Restaurant location developed under this Agreement and shall not guarantee Developer's obligations thereunder. Upon approval by Franchisor of the form of Developer's lease and execution of a lease for a site by Developer, Developer shall furnish to Franchisor a fully executed copy of such lease and any amendments thereto within fifteen (15) calendar days of such execution. Franchisor shall have no obligation to assist Developer to negotiate its leases.\n\n2.12. The lease or deed may not contain a non-competition covenant which restricts Franchisor or any franchisee or licensee of Franchisor, from operating an El Pollo Loco® Restaurant or any other retail restaurant, unless such covenant is approved by Franchisor in writing prior to the execution by Developer of the lease.\n\n2.13. Each subsequent site to be developed pursuant to the Development Schedule shall be submitted for approval by RESAC by the date set forth in Exhibit \"B\". Similarly, each fully executed lease (executed upon prior review and approval by Franchisor) or purchase agreement (with all contingencies to Developer's obligations waived or satisfied, except permitting contingencies) relating to each subsequent Approved Site shall: (1) be delivered to Franchisor on or before th",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 79,
+      "contract_title": "ElPolloLocoHoldingsInc_20200306_10-K_EX-10.16_12041700_EX-10.16_Development Agreement",
+      "chunk_index": 11,
+      "original_length": 60618
+    }
+  },
+  {
+    "clause_id": "cuad_test_970",
+    "clause_text": "e Site Commitment Date for each respective El Pollo Loco® Restaurant as set forth in Exhibit \"B\" and (2) prior to the execution of your Franchise Agreements (3) prior to the payment of your initial Franchise Fees for each site and (4) prior to the commencement of construction of the El Pollo Loco® Restaurant.\n\n2.14. RESAC site approval does not assure that a Franchise Agreement will be executed. Execution of the Franchise Agreement is contingent upon Developer completing the purchase or lease of the proposed site within sixty (60) days after approval of the site by the Franchisor or no later than the dates set forth in Exhibit \"B\" as Site Committment Dates.\n\n2.15. Developer acknowledges that time is of the essence in this Agreement. If Developer has not obtained approval and entered into a binding lease or purchase agreement for each site for El Pollo Loco® Restaurant(s) to be developed under this Agreement by the applicable Site Commitment Date, Developer shall be in default of its obligations under the Development Schedule and Franchisor shall be entitled to exercise its rights and remedies under this Agreement, up to and including termination of this Agreement.\n\n2.16. Developer also acknowledges that it is required pursuant to this Agreement to open El Pollo Loco® Restaurants in the future pursuant to dates set forth in the Development Schedule attached as Exhibit \"B\". If Developer fails to meet the opening date for any El Pollo Loco® Restaurant to be developed under this",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 79,
+      "contract_title": "ElPolloLocoHoldingsInc_20200306_10-K_EX-10.16_12041700_EX-10.16_Development Agreement",
+      "chunk_index": 12,
+      "original_length": 60618
+    }
+  },
+  {
+    "clause_id": "cuad_test_971",
+    "clause_text": "Agreement, Developer shall be in default and Franchisor shall be entitled to exercise all rights and remedies available to Franchisor set forth in Section 11. Developer acknowledges that if Developer fails to open El Pollo Loco® Restaurants in a timely manner pursuant to the Development Schedule, Franchisor will suffer lost revenues, including royalties and other fees which would be difficult to calculate and which Franchisor would have received had Developer met the agreed schedule or had Franchisor had the right to grant development rights to others in the Territory.\n\n2.17. Developer acknowledges that the estimated initial investment and estimated expenses set forth in Items 6 and 7 of our Franchise Disclosure Document are subject to and likely to increase over time, and that future El Pollo Loco® Restaurants will likely involve a greater initial investment and operating capital requirements than those stated in the Franchise Disclosure Document provided to you prior to your execution of this Agreement.\n\n2.18. Developer understands and acknowledges that in accepting Developer's proposed site or by granting a franchise for each approved site, Franchisor does not in any way, endorse, warrant or guarantee either directly or indirectly the suitability of such site or the success of the franchise business to be operated by Developer at such site. The suitability of the site and the success of the franchise business depend upon a number of factors outside of Franchisor's control,",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 79,
+      "contract_title": "ElPolloLocoHoldingsInc_20200306_10-K_EX-10.16_12041700_EX-10.16_Development Agreement",
+      "chunk_index": 13,
+      "original_length": 60618
+    }
+  },
+  {
+    "clause_id": "cuad_test_972",
+    "clause_text": "including, but not limited to, the Developer's operational abilities, site location, consumer trends and such other factors that are within the direct control of the Developer. Source: EL POLLO LOCO HOLDINGS, INC., 10-K, 3/6/2020\n\n\n\n\n\n2.19. The purpose of this Agreement is to promote orderly incremental growth within the El Pollo Loco® System. The acquisition of existing El Pollo Loco® restaurants by Developer does not represent incremental growth and, therefore, does not satisfy the terms of this Agreement pertaining to development.\n\n2.20. (To be added where there are existing restaurants in the Territory) Developer acknowledges that Franchisor (i) is operating or has franchised another to operate, one (1) or more restaurants in the Territory or (ii) has granted franchise rights to another in the Territory or (iii) approved a new site for development for those locations identified in Exhibit \"C\" attached hereto and incorporated herein by this reference. Developer further acknowledges that Franchisor retains the sole and absolute right to approve or disapprove any proposed location for development under this Agreement if, in Franchisor's reasonable judgment: (i) such proposed location is not suitable for an El Pollo Loco® Restaurant or (ii) such proposed location will have a material adverse effect on the profitability of another existing El Pollo Loco® location (or approved site) in the Territory. Developer covenants to use its reasonable best efforts to avoid selecting pro",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 79,
+      "contract_title": "ElPolloLocoHoldingsInc_20200306_10-K_EX-10.16_12041700_EX-10.16_Development Agreement",
+      "chunk_index": 14,
+      "original_length": 60618
+    }
+  },
+  {
+    "clause_id": "cuad_test_997",
+    "clause_text": "Exhibit 10.22   OUTSOURCE TECHNOLOGY DEVELOPMENT AGREEMENT   This Outsource Technology Development Agreement (this \"Agreement\") is entered into and effective as of this 1s t day of March, 2018 (the \"Effective Date\") by and between Document Security Systems, Inc., a corporation organized and existing under the laws of the State of New York (\"DSS\"), and HotApp International Ltd., a corporation organized and existing under the laws of Hong Kong (\"Developer\").   RECITALS:   WHEREAS, DSS is engaged in the business of, among other things, developing and licensing anti-counterfeiting technology, processes and products providing protection against a wide range of threats, including product diversion and counterfeiting, brand infringement, forgery, and unauthorized copying, scanning and photo imaging;   WHEREAS, Developer is engaged in the business of, among other things, software development; and   WHEREAS, DSS desires to retain Developer for the purpose of assisting DSS in developing an Android software application to be included as part of DSS's AuthentiGuard® Technology suite, and DSS is willing to grant Developer a non-exclusive, limited and non-transferable license for purposes of such development activities.   NOW, THEREFORE, for good and valuable consideration, the receipt and sufficiency of which is hereby acknowledged, the parties hereto agree as follows:   Capitalized terms contained herein shall have the meanings ascribed to them herein, or in Schedule 1 which is annexed h",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 82,
+      "contract_title": "HfEnterprisesInc_20191223_S-1_EX-10.22_11931299_EX-10.22_Development Agreement",
+      "chunk_index": 0,
+      "original_length": 19435
+    }
+  },
+  {
+    "clause_id": "cuad_test_998",
+    "clause_text": "ereto and made a part of this Agreement.   1. Development License and Fees.   1.1. Development License. Subject to the terms and conditions set forth herein, DSS hereby grants to Developer, and Developer accepts from DSS, for the Term, a non-exclusive, limited, and non-transferable license to install and use the Technology for the sole purpose of developing the Improvements (as defined hereunder) thereto for the benefit of DSS (the \"Technology Development Services License\").   1.2. Development Fees. As payment for Developer's satisfactory performance of the services set forth in Schedule 1 hereto (the \"Technology Development Services\"), DSS shall pay Developer the sum of US $23,000 per month, for the duration of the Term hereof, with payments to commence on March 1, 2018.   2.  Term and Termination.   2.1. Term. The initial term of this Agreement shall commence on the Effective Date, and shall continue thereafter for a period of twelve (12) months (the \"Initial Term\"). The Initial Term shall automatically renew for one-month periods thereafter unless either party provides 30- days advance notice of termination, unless earlier terminated pursuant to Section 2.2 hereof. For purposes hereof, the Initial Term, together with any extension or renewal terms, shall hereinafter be collectively referred to as the \"Term\".   2.2. Early Termination.   2.2.1. Either party may terminate this Agreement prior to expiration of the Term: (i) upon thirty (30) days prior written notice, or (ii) i",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 82,
+      "contract_title": "HfEnterprisesInc_20191223_S-1_EX-10.22_11931299_EX-10.22_Development Agreement",
+      "chunk_index": 1,
+      "original_length": 19435
+    }
+  },
+  {
+    "clause_id": "cuad_test_999",
+    "clause_text": "mmediately upon written notice to the other party if: (a) the other party declares or a petition is filed in any court for insolvency or bankruptcy and such petition is not dismissed in thirty (30) days; (b) the other party reorganizes under the relevant bankruptcy act or any similar statute in such party's jurisdiction of incorporation; (c) the other party consents to the appointment of a trustee in bankruptcy or a receiver or similar entity; or (d) the Developer breaches DSS's Technology or Intellectual Property rights contained herein.   2.2.2. Upon the expiration or termination of this Agreement, (i) the Technology Development Services License granted to Developer hereunder shall immediately cease, and (ii) Developer shall immediately cease use of all proprietary technology files heretofore delivered by DSS and shall deliver to DSS all such proprietary files along with any and all Improvements completed to date by Developer.     1\n\nSource: HF ENTERPRISES INC., S-1, 12/23/2019\n\n\n\n\n\n    3. Proprietary Rights.   3.1. Subject to Developer's expressly granted rights under this Agreement, Developer acknowledges and agrees that DSS shall own all right, title, and interest in and to the Technology, the Improvements, its Intellectual Property, and all future derivative works derived therefrom or developed hereunder. Developer agrees that it will not at any time (i) do or cause to be done any act or thing contesting or in any way impairing any part of such right, title and interest",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 82,
+      "contract_title": "HfEnterprisesInc_20191223_S-1_EX-10.22_11931299_EX-10.22_Development Agreement",
+      "chunk_index": 2,
+      "original_length": 19435
+    }
+  },
+  {
+    "clause_id": "cuad_test_1000",
+    "clause_text": "or (ii) represent, expressly or by implication that it has any right, title or interest in or to any of the foregoing other than as expressly set forth herein.   3.2. Developer hereby acknowledges DSS's claim of sole ownership of the Technology, the Improvements, and all associated goodwill. Nothing in this Agreement or in the performance thereof, or that might otherwise be implied by law, shall operate to grant Developer any right, title, or interest in or to the Technology or the Improvements. Developer hereby assigns and shall assign in the future to DSS all rights it may acquire by operation of law or otherwise in the Technology or Improvements, along with the goodwill associated therewith. DSS shall have the sole right to, and in its sole discretion may, commence, prosecute or defend, and control any legal action concerning the Technology and Improvements. Developer may not contest the validity of, by act or omission jeopardize, or take any action inconsistent with, DSS's ownership rights or goodwill in the Technology or Improvements, including any attempted registration of the Technology or Improvements in Hong Kong or in any other legal jurisdiction, or any attempts to license the same to any unauthorized third Person.   4. Definitions. For purposes of this Agreement, the following capitalized terms shall have the meanings set forth below.   \"Improvements\" shall mean technical improvements, modifications or enhancements relating to the Technology that are developed by",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 82,
+      "contract_title": "HfEnterprisesInc_20191223_S-1_EX-10.22_11931299_EX-10.22_Development Agreement",
+      "chunk_index": 3,
+      "original_length": 19435
+    }
+  },
+  {
+    "clause_id": "cuad_test_1001",
+    "clause_text": "the Developer pursuant to this Agreement.   \"Intellectual Property\" shall mean, but shall not be limited to, all of DSS's (i) issued and pending patents, trademarks, trade names, service marks, designs, logos, and copyrights, and all pending applications for registration thereof; (ii) know-how, inventions, improvements, methods, operation manuals and procedures, trade secrets, technical information, formulas; (iii) computer software and programs, and related documentation, updates, and data, whether in object or source code form, and (vi) other similar proprietary and intellectual rights, whether or not registered.   \"Person\" shall mean any individual, corporation, partnership, limited liability company, association, trust or any other entity or organization of any kind or character, including a governmental authority or agency.   \"Technology\" shall collectively mean (i) DSS's proprietary AuthentiGuard® technology (including DSS's related patents and patent applications, inventions, software, trademarks, trade names, service marks, technology marks, designs, logos, copyrights, know-how, trade secrets and any other DSS owned intellectual property relating thereto), consisting of a unique application of the AuthentiGuard® patent coupled with next generation technology and software which enables and end-to-end brand protection solution for product authentication, counterfeit deterrence and data tracking via embedded customized technology marks with hidden codes placed in produc",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 82,
+      "contract_title": "HfEnterprisesInc_20191223_S-1_EX-10.22_11931299_EX-10.22_Development Agreement",
+      "chunk_index": 4,
+      "original_length": 19435
+    }
+  },
+  {
+    "clause_id": "cuad_test_1002",
+    "clause_text": "ts which can be read an authenticated via an application loaded on various devices along with necessary hardware and DSS's portal, (ii) DSS's Prism Viewer technology comprised of a custom covert Prism image imbedded in a customer's products that is viewed and authenticated through the use of DSS's propriety smart phone application, and (iii) DSS's AuthentiSite technology suite comprised of an embedded digital Prism image coupled with a cloud-based security server and a smart phone verification application for website authentication.   5. Confidentiality; Non-Disclosure. The parties acknowledge that they have entered into that certain Mutual Non-Disclosure Agreement dated as of January 18, 2018 (the \"NDA\"), a copy of which is attached hereto as Exhibit A. The terms of the NDA shall be deemed to be incorporated by reference into this Agreement, mutatis mutandis. During the Term of this Agreement and thereafter for a period of five (5) years, the parties shall be bound by all of the protective terms and conditions of the NDA.   6. Developer Liability.   6.1. Developer Liability for Damages. Developer shall be fully liable, without limitation, for money damages resulting from its improper or unauthorized use, modification, alteration, licensing or transfer of the Technology or Improvements, or resulting from its failure to provide functional and merchantable Improvements hereunder, which failure shall be deemed a material breach of this Agreement by Developer.     2\n\nSource: HF E",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 82,
+      "contract_title": "HfEnterprisesInc_20191223_S-1_EX-10.22_11931299_EX-10.22_Development Agreement",
+      "chunk_index": 5,
+      "original_length": 19435
+    }
+  },
+  {
+    "clause_id": "cuad_test_1003",
+    "clause_text": "NTERPRISES INC., S-1, 12/23/2019\n\n\n\n\n\n    7. DSS's Representations and Warranties.   7.1. Power and Authority. DSS represents and warrants that it has the right, power and authority to enter into this Agreement and that the signatory on behalf of such party to this Agreement has full authority to enter into and bind the party to the obligations set forth in this Agreement.   7.2. Right to Technology. DSS represents and warrants to Developer (i) that the Technology is the sole and exclusive property of DSS (ii) that DSS possesses all legal right, title and interest in and to the Technology necessary to grant Developer the rights provided herein, and (iii) that nothing contained in this Agreement conflicts with any other obligation or agreement of DSS.   8. Developer's Representations, Warranties and Covenants.   8.1            Power and Authority. Developer represents and warrants that it has the right, power and authority to enter into this Agreement and that the signatory on behalf of such party to this Agreement has full authority to enter into and bind the party to the obligations set forth in this Agreement.   8.2            Reverse Engineering. Developer covenants that it shall not attempt, directly or indirectly, during the term of this Agreement or at any time thereafter, (i) to reverse engineer, by any means whatsoever, the Technology or other Intellectual Property provided to Developer hereunder, for any unauthorized purpose, and further acknowledges that such Techno",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 82,
+      "contract_title": "HfEnterprisesInc_20191223_S-1_EX-10.22_11931299_EX-10.22_Development Agreement",
+      "chunk_index": 6,
+      "original_length": 19435
+    }
+  },
+  {
+    "clause_id": "cuad_test_1004",
+    "clause_text": "logy and Intellectual Property has been provided hereunder by DSS solely for the purpose of enabling Developer to fully perform its legal duties and obligations hereunder, (ii) to forensically, graphically or otherwise physically analyze the Technology or Intellectual Property provided to Developer hereunder for any unauthorized purpose, or (iii) to compile/assemble, decrypt, or create any derivative works based upon the Technology or Intellectual Property of DSS, for any unauthorized purpose. Any violation of this clause shall be deemed a material breach of this Agreement by the Developer.   9. Miscellaneous.   9.1. Assignment. Developer may not assign or transfer this Agreement, nor its rights and obligations hereunder, by operation of law or otherwise, to any third party without the prior express written approval of DSS. Any purported assignment without the consent of DSS shall be void. The provisions of this Agreement shall be binding upon, and shall inure to, the benefit of the parties, their legal representatives, permitted successors and permitted assigns. The rights of Developer under this Agreement shall immediately cease and be terminated upon the sale or transfer of all or substantially all of the assets of Developer unless an assignment of such rights pursuant to such sale or transfer has been previously approved in writing by DSS. The rights of Developer under this Agreement shall immediately cease and be terminated upon the sale or transfer of no less than a maj",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 82,
+      "contract_title": "HfEnterprisesInc_20191223_S-1_EX-10.22_11931299_EX-10.22_Development Agreement",
+      "chunk_index": 7,
+      "original_length": 19435
+    }
+  },
+  {
+    "clause_id": "cuad_test_1005",
+    "clause_text": "ority of, or a controlling interest in or over, the voting capital or ownership capital of Developer unless an assignment of such rights pursuant to such sale or transfer has been previously approved in writing by DSS.   9.2. Remedies Cumulative; Waiver. The rights and remedies provided in this Agreement, and all other rights and remedies available to either party at law or in equity are, to the extent permitted by law, cumulative and not exclusive of any other right or remedy now or hereafter available at law or in equity. A party's failure to assert any right or remedy shall not constitute a waiver of that right or remedy. No waiver by either party of any default shall be deemed as a waiver of prior or subsequent default of the same or other provisions of this Agreement.   9.3. Severability. In the event that a court of competent jurisdiction finds any provision of this Agreement to be illegal, invalid or unenforceable, it is the intention of the parties that such court shall modify such provision as necessary so that it shall be legal, valid and enforceable. The illegality, invalidity or unenforceability of any provision of this Agreement shall not affect the legality, validity or enforceability of any other provision of this Agreement.   9.4. Relationship of the Parties. Nothing in this Agreement shall be construed as creating a partnership, joint venture or agency relationship between the parties, or as authorizing either party to act as agent for the other.   9.5. Amend",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 82,
+      "contract_title": "HfEnterprisesInc_20191223_S-1_EX-10.22_11931299_EX-10.22_Development Agreement",
+      "chunk_index": 8,
+      "original_length": 19435
+    }
+  },
+  {
+    "clause_id": "cuad_test_1006",
+    "clause_text": "ments. No modifications or amendments may be made to this Agreement except as expressed in writing and signed by both parties.   9.6. Irreparable Damage. The parties acknowledge and agree that any material breach of this Agreement may subject the other to irreparable injury for which monetary damages may not be an adequate remedy. Therefore, in addition to any remedies otherwise available, the non-breaching party may be entitled to injunctive relief and specific performance to enforce the terms of this Agreement. The breaching party shall pay all reasonable attorney's fees and court costs, arbitration costs, and/or appeal costs incurred by the non-breaching party should it be necessary for the non-breaching party to enforce the terms of this Agreement.     3\n\nSource: HF ENTERPRISES INC., S-1, 12/23/2019\n\n\n\n\n\n    9.7. No Construction against the Drafter; Headings. The parties acknowledge that they have reviewed this Agreement, have either been represented by counsel or had the opportunity to be represented by counsel, and have negotiated its terms. Accordingly, this Agreement shall be construed without regard to the party or parties responsible for its preparation, and shall be deemed to have been prepared jointly by the parties. Headings contained in this Agreement are not intended to be full and accurate descriptions of the contents of this Agreement and shall not affect the meaning or interpretation of this Agreement.   9.8. Notice. All notices sent under this Agreement sha",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 82,
+      "contract_title": "HfEnterprisesInc_20191223_S-1_EX-10.22_11931299_EX-10.22_Development Agreement",
+      "chunk_index": 9,
+      "original_length": 19435
+    }
+  },
+  {
+    "clause_id": "cuad_test_1007",
+    "clause_text": "ll be in writing and shall be deemed effectively given (i) upon personal delivery to the party to be notified; (ii) when sent by e-mail PDF or confirmed facsimile, if sent during normal business hours of the recipient, if not, then on the next business day; (iii) three (3) days after having been sent by registered or certified mail, return receipt requested, postage prepaid; or (iv) two (2) days after deposit with an internationally recognized overnight courier, specifying two (2) day delivery, with written verification of receipt. Notices shall be sent to the Parties at the following addresses or fax numbers or such other addresses or fax numbers as the parties subsequently may provide in accordance with this Section 9.8:\n\n\n\nIf to DSS:   Document Security Systems, Inc. 200 Canal View Blvd., Suite 300 Rochester, New York 14623  USA Attn: Chief Executive Officer\n\n\n\nWith e-mail PDF copy to:   Document Security Systems, Inc. 200 Canal View Blvd., Suite 300 Rochester, New York 14614 USA Attn: General Counsel (jdangelo@dsssecure.com)\n\n\n\nIf to Developer:   HotApp International Ltd. 17B, Greatmany Centre 109-111 Queen's Road East Hong Kong Attn: Chief Executive Officer\n\n\n\nWith a copy to:\n\n  9.9. Force Majeure. Notwithstanding any provision herein, the parties may be discharged from all liabilities if the failure to perform or improper performance of this Agreement is the result of Force Majeure, provided that the party subject to the Force Majeure provides notice of such Force Majeu",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 82,
+      "contract_title": "HfEnterprisesInc_20191223_S-1_EX-10.22_11931299_EX-10.22_Development Agreement",
+      "chunk_index": 10,
+      "original_length": 19435
+    }
+  },
+  {
+    "clause_id": "cuad_test_1008",
+    "clause_text": "re, as soon as possible after such party became subject to such Force Majeure.   9.10. Governing Law; Jurisdiction. This Agreement shall be governed in accordance with the laws of the State of New York without regard to conflict of laws principles. It is hereby irrevocably agreed that legal jurisdiction and venue for any proceeding arising out of this Agreement shall be in the state or federal courts located in the County of Monroe, State of New York, United States.   9.11. Entire Agreement. This Agreement and the Schedules and Exhibits hereto contain the entire agreement between the parties with respect to the transactions described herein, and supersede all prior agreements, written or oral, with respect thereto, provided, however, that notwithstanding any provision herein, the NDA shall remain in full force and effect.   9.12. Counterparts; Facsimile Signatures. This Agreement may be executed in counterparts, each of which shall be deemed to be original but all of which together shall constitute a single instrument. The signatures required for execution may be transmitted electronically to the other party via e-mail PDF, and such signatures shall be deemed original signatures. [Remainder of Page Intentionally Left Blank - Signature Page Follows]     4\n\nSource: HF ENTERPRISES INC., S-1, 12/23/2019\n\n\n\n\n\n    IN WITNESS WHEREOF, the parties hereto have caused this Agreement to be executed by their respective duly authorized officers as of the date first set forth above.",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 82,
+      "contract_title": "HfEnterprisesInc_20191223_S-1_EX-10.22_11931299_EX-10.22_Development Agreement",
+      "chunk_index": 11,
+      "original_length": 19435
+    }
+  },
+  {
+    "clause_id": "cuad_test_1009",
+    "clause_text": "DOCUMENT SECURITY SYSTEMS, INC.   HOTAPP INTERNATIONAL LTD.          /s/Jeffrey Ronaldi   /s/ Nathan Lee   Name: Jeffrey Ronaldi   Name: Nathan Lee   Title: Chief Executive Office   Title: Chief Executive Officer                                                             5\n\nSource: HF ENTERPRISES INC., S-1, 12/23/2019\n\n\n\n\n\n    SCHEDULE 1   TECHNOLOGY DEVELOPMENT SERVICES   (Attached)         6\n\nSource: HF ENTERPRISES INC., S-1, 12/23/2019\n\n\n\n\n\n    Technology Development Services   Deliverables from March 1s t to May 31s t   1. To conduct thorough testing of AuthentiGuard App for specificclients provided by DSS for every releases in Android and iOS as instructed by DSS. 2. To development Android Mobile App for core scanning modulewith improvement of scanning accuracy for major Android Phones (Samsung S7, S8 in particular) 3. To develop Sales Demo Apps for AuthentiGuard with guidelines offered by Product Marketing Team from DSS 4. To establish the standard testing procedure for all clients AuthentiGuard Mobile App testing 5. To develop Proof of Concept for AuthentiSite   Note: Detail Scope of Work to be agreed during the meeting with HotApp on March 20-24th, 2018.   Deliverable for subsequent 3 months will be mutually agreed by end of May.       7\n\nSource: HF ENTERPRISES INC., S-1, 12/23/2019\n\n\n\n\n\n    EXHIBIT A   MUTAL NON-DISCLOSURE AGREEMENT   (Attached)           8\n\nSource: HF ENTERPRISES INC., S-1, 12/23/2019",
+    "contract_type": "software_development",
+    "source": "CUAD",
+    "metadata": {
+      "dataset": "test",
+      "contract_index": 82,
+      "contract_title": "HfEnterprisesInc_20191223_S-1_EX-10.22_11931299_EX-10.22_Development Agreement",
+      "chunk_index": 12,
+      "original_length": 19435
+    }
+  }
+]

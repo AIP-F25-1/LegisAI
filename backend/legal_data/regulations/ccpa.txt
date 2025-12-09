@@ -1,0 +1,53 @@
+
+CALIFORNIA CONSUMER PRIVACY ACT (CCPA)
+Assembly Bill 375 (AB 375)
+
+TITLE 1.81.5. CALIFORNIA CONSUMER PRIVACY ACT OF 2018
+
+1798.100. General Duties of Businesses that Collect Personal Information
+(a) A business that collects consumers' personal information shall, at or before the point of collection, inform consumers as to the categories of personal information to be collected and the purposes for which the categories of personal information shall be used.
+
+1798.105. Consumer's Right to Delete Personal Information
+(a) A consumer shall have the right to request that a business delete any personal information about the consumer which the business has collected from the consumer.
+
+1798.110. Consumer's Right to Know What Personal Information is Being Collected
+(a) A consumer shall have the right to request that a business that collects personal information about the consumer disclose to the consumer the following:
+(1) The categories of personal information it has collected about that consumer.
+(2) The categories of sources from which the personal information is collected.
+(3) The business or commercial purpose for collecting or selling personal information.
+(4) The categories of third parties with whom the business shares personal information.
+
+1798.115. Consumer's Right to Know What Personal Information is Sold or Disclosed
+(a) A consumer shall have the right to request that a business that sells the consumer's personal information, or that discloses it for a business purpose, disclose to that consumer:
+(1) The categories of personal information that the business collected about the consumer.
+(2) The categories of personal information that the business sold about the consumer and the categories of third parties to whom the personal information was sold.
+(3) The categories of personal information that the business disclosed about the consumer for a business purpose.
+
+1798.120. Consumer's Right to Opt-Out of Sale of Personal Information
+(a) A consumer shall have the right, at any time, to direct a business that sells personal information about the consumer to third parties not to sell the consumer's personal information.
+
+1798.125. Non-Discrimination
+(a) A business shall not discriminate against a consumer because the consumer exercised any of the consumer's rights under this title.
+
+1798.130. Notice, Disclosure, Correction and Deletion Requirements
+(a) A business that is required to comply with Section 1798.120 shall, in a form that is reasonably accessible to consumers:
+(1) Provide a clear and conspicuous link on the business's Internet homepage, titled "Do Not Sell My Personal Information".
+
+1798.135. Opt-Out Links
+(a) A business that has received direction from a consumer not to sell the consumer's personal information or, if the consumer is less than 16 years of age, has not received consent to sell the consumer's personal information, shall be prohibited, pursuant to paragraph (4) of subdivision (a) of Section 1798.120, from selling the consumer's personal information after its receipt of the consumer's direction.
+
+1798.140. Definitions
+For purposes of this title:
+(a) "Aggregate consumer information" means information that relates to a group or category of consumers, from which individual consumer identities have been removed.
+(b) "Biometric information" means an individual's physiological, biological or behavioral characteristics.
+(c) "Business" means a legal entity that collects consumers' personal information.
+(d) "Consumer" means a natural person who is a California resident.
+(e) "Personal information" means information that identifies, relates to, describes, is capable of being associated with, or could reasonably be linked, directly or indirectly, with a particular consumer or household.
+
+1798.145. Exemptions
+(a) This title shall not apply to the sale of personal information by a consumer to a business if the consumer is a natural person who is a California resident.
+
+1798.150. Civil Actions
+(a) Any consumer whose nonencrypted and nonredacted personal information is subject to an unauthorized access and exfiltration, theft, or disclosure as a result of the business's violation of the duty to implement and maintain reasonable security procedures and practices may institute a civil action.
+
+[Note: This is a summary. Full CCPA text available at: https://oag.ca.gov/privacy/ccpa]
